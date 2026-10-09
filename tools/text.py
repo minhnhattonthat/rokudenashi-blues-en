@@ -69,7 +69,7 @@ def dump(force=False):
         if path.exists() and not force:
             print(f"skip {path.name} (exists; --force overwrites English)")
             continue
-        path.write_text(json.dumps(entries, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        path.write_text(json.dumps(entries, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
         print(f"wrote {path.name}: {len(entries)}")
 
 

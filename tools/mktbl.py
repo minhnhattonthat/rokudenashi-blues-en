@@ -49,7 +49,7 @@ ROWS = [
 SPACES = {0x000: " ", 0x100: "　", 0x200: "{sp200}"}
 # FFF0-FFFB call 2-glyph substrings at $88:A265 (see docs/re/text.md); FFFC/FFFD take one word argument.
 CTRL = ["{s0}", "{s1}", "{s2}", "{s3}", "{s4}", "{s5}", "{s6}", "{s7}", "{s8}", "{s9}", "{sA}", "{sB}",
-        "{num:2}", "{arg:2}", "{nl}", "{end}"]
+        "{face:2}", "{color:2}", "{nl}", "{end}"]
 
 
 def lines():
@@ -70,4 +70,4 @@ if __name__ == "__main__":
     assert all(len(r) == 16 for r in ROWS[:-1]), [i for i, r in enumerate(ROWS) if len(r) != 16]
     out = Path(__file__).resolve().parent.parent / "tbl" / "jp.tbl"
     out.parent.mkdir(exist_ok=True)
-    out.write_text("\n".join(lines()) + "\n", encoding="utf-8")
+    out.write_text("\n".join(lines()) + "\n", encoding="utf-8", newline="\n")
