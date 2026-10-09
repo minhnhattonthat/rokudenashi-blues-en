@@ -29,8 +29,8 @@ Skill: translate-retro-game (H:/translation/rokudenashi-blues/.claude/skills/tra
   Options labels = BG3 font/tilemap relocated to bank $B0:C000+.
 
 ## Status (2026-10-09)
-- Done: all script + other text translated; astra review + fixes for b1a b1b b2 b3 b4 b5 b7a b7b; title menu, options,
-  shouts in-game checked; release v0.9 built locally (not published).
-- Next: astra review of b6 (dispatch was blocked); minor polish pass; check command labels and credits in-game
+- Done: all script + other text translated; astra review + fixes for b1a b1b b2 b3 b4 b5 b7a b7b, b6 self-reviewed
+  (astra dispatch blocked by classifier outage); title menu, options, shouts in-game checked; release v0.9 built locally.
+- Next: astra review of b6; minor polish pass; check command labels and credits in-game
   (HUD command panel not reached yet; credits need the ending); user playtest.
 - Known JP left: boot copyright screen (text engine with custom tilemap), copier warning (0x434BF), logo art, HUD 怒 icon.
