@@ -1,0 +1,19 @@
+# File offsets the English build may change (romdiff.py); one range per line, comment after it.
+C800-CE7F       font glyphs 0x240-0x273: pre-rendered command labels
+420B8-420B9     typing speed (AND #$01)
+420CE-420D1     JSL wrap_read
+421A4-421A9     JSL vwf_draw + BRA
+4201B-4209C     command label fields (4 glyph codes + FFFF each)
+515D8-51C19     pointer tables, groups 1 3 6
+51C1A-57FFF     script text, bank $8A
+58000-587CD     pointer tables, groups 2 4 5 7
+587CE-5FFFF     script text, bank $8B
+7598B-75998     shout pointers
+75999-75A22     shouts
+77895-77FFF     shouts overflow (bank $8E free space)
+7AD73-7AD77     options: BG3 font block address operands
+7ADA8-7ADAC     options: BG3 tilemap block address operands
+7D7D2-7D830     credits pointer list
+809F5-80F3B     title menu glyph block (LZ)
+80F3C-80FFF     title menu metasprite
+180000-1FFFFF   expansion: asm, English font, relocated graphics, text
