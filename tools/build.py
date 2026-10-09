@@ -13,7 +13,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import font  # noqa: E402
+import options  # noqa: E402
 import text  # noqa: E402
+import titlemenu  # noqa: E402
 from tbl import Table  # noqa: E402
 
 ROOT = text.ROOT
@@ -25,7 +27,8 @@ BOXES = {"narration": (15, 13), "portrait": (13, 11)}
 MIN_LINE_PX = 11 * 16 - 12
 # where packed strings may go: the original areas up to their bank ends, then banks $B1-$BF
 REGIONS = [(0x51C1A, 0x58000), (0x587CE, 0x60000), (0x188000, SIZE)]
-SHOUT_REGIONS = [(0x75999, 0x75A23), (0x77895, 0x78000)]  # bank $8E: the original shouts, then end-of-bank FF
+GFX_REGION = (0x184000, 0x188000)  # $B0:C000-$B0:FFFF: relocated graphics (asm code + font use $B0:8000-)
+SHOUT_REGIONS =[(0x75999, 0x75A23), (0x77895, 0x78000)]  # bank $8E: the original shouts, then end-of-bank FF
 MENU_GLYPH, MENU_PX = 0x240, 64  # command labels use font glyphs 0x240-0x273 (blank in the original font)
 WIDTHS = font.widths()
 EN = Table([f"{i:02X}03={ch}" for ch, i in ((c, ord(c) - 0x20) for c in WIDTHS)]
@@ -185,6 +188,10 @@ def build(out, marker=False):
     free = [list(r) for r in REGIONS]
     text.write_script(rom, encode_script(rom, marker), free)
     insert_other(rom, marker, free)
+    titlemenu.patch(rom)
+    assert set(rom[GFX_REGION[0]:GFX_REGION[1]]) == {0xFF}, "asm code grew into the graphics region"
+    gfx_free = [list(GFX_REGION)]
+    options.patch(rom, lambda data: text.pack(rom, {"gfx": data}, gfx_free)["gfx"])
     out.write_bytes(rom)
     return rom
 

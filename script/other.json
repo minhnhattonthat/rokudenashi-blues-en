@@ -3,280 +3,280 @@
   "id": "C00",
   "ptr": "92EC3F",
   "jp": " {nl} {nl} {nl} STAFF",
-  "en": "",
+  "en": "{nl}{nl}{nl}                 STAFF",
   "notes": ""
  },
  {
   "id": "C01",
   "ptr": "92EC59",
   "jp": "プロデューサー{nl}  磯貝 健夫{nl} {nl}アシスタント{nl}プロデューサー{nl}  鈴木 敏弘",
-  "en": "",
+  "en": "PRODUCER{nl}     Isogai Takeo{nl}{nl}ASSISTANT{nl}PRODUCER{nl}     Suzuki Toshihiro",
   "notes": ""
  },
  {
   "id": "C02",
   "ptr": "92ECAB",
   "jp": "コーディ{nl}   ネーター{nl} {nl}DE YASU{nl} {nl}JAKE 山本",
-  "en": "",
+  "en": "COORDINATORS{nl}{nl}     DE YASU{nl}{nl}     JAKE Yamamoto",
   "notes": ""
  },
  {
   "id": "C03",
   "ptr": "92ECED",
   "jp": "バトルプログラマー{nl}    日本一の・・・・",
-  "en": "",
+  "en": "BATTLE PROGRAMMER{nl}     Japan's No. 1....",
   "notes": ""
  },
  {
   "id": "C04",
   "ptr": "92ED1B",
   "jp": "ストーリープログラマー{nl}  MOTOR―OOM{nl}タイトルプログラマー{nl}  PORCOROSSO",
-  "en": "",
+  "en": "STORY PROGRAMMER{nl}     MOTOR-OOM{nl}TITLE PROGRAMMER{nl}     PORCOROSSO",
   "notes": ""
  },
  {
   "id": "C05",
   "ptr": "92ED7B",
   "jp": "プログラムサンクス{nl}         ATS{nl}       MITSU{nl}      DONKEY",
-  "en": "",
+  "en": "PROGRAM THANKS{nl}     ATS{nl}     MITSU{nl}     DONKEY",
   "notes": ""
  },
  {
   "id": "C06",
   "ptr": "92F167",
   "jp": "テストプレイヤー{nl}         カッパ{nl}   チャッピーぬけさく",
-  "en": "",
+  "en": "TEST PLAYERS{nl}     Kappa{nl}     Chappy Nukesaku",
   "notes": ""
  },
  {
   "id": "C07",
   "ptr": "92EDDD",
   "jp": "デザイナー  タコやきや{nl}        かねごん{nl}       さるじょう{nl}   ひがわりていしょく",
-  "en": "",
+  "en": "DESIGNERS     Takoyakiya{nl}     Kanegon{nl}     Sarujo{nl}     Higawari Teishoku",
   "notes": ""
  },
  {
   "id": "C08",
   "ptr": "92EE45",
   "jp": "    MINAZUKI{nl}   アセンズのタイモン{nl}          大王{nl}        のっさん",
-  "en": "",
+  "en": "MINAZUKI{nl}     Timon of Athens{nl}     Daio{nl}     Nossan",
   "notes": ""
  },
  {
   "id": "C09",
   "ptr": "92F125",
   "jp": "コンポーザー{nl}          M2{nl}      KYOMOE",
-  "en": "",
+  "en": "COMPOSERS{nl}     M2{nl}     KYOMOE",
   "notes": ""
  },
  {
   "id": "C10",
   "ptr": "92EEAB",
   "jp": "アシストワーク{nl}渡辺 浩孝  古田 真美{nl}内田 孝生  佐藤 剛司{nl}清水 泰臣",
-  "en": "",
+  "en": "ASSIST WORK{nl}Watanabe Hirotaka   Furuta Mami{nl}Uchida Takao   Sato Tsuyoshi{nl}Shimizu Yasuomi",
   "notes": ""
  },
  {
   "id": "C11",
   "ptr": "92EEFB",
   "jp": "     声優",
-  "en": "",
+  "en": "VOICE CAST",
   "notes": ""
  },
  {
   "id": "C12",
   "ptr": "92EF0B",
   "jp": "前田・畑中・海老原{nl}       平田 広明{nl}島袋・小兵二・薬師寺{nl}       江川 史生",
-  "en": "",
+  "en": "Maeda, Hatanaka, Ebihara{nl}     Hirata Hiroaki{nl}Shimabukuro, Koheiji, Yakushiji{nl}     Egawa Hisao",
   "notes": ""
  },
  {
   "id": "C13",
   "ptr": "92EF67",
   "jp": "鬼塚・葛西{nl}       幸野 善之{nl}千秋{nl}       永島 由子",
-  "en": "",
+  "en": "Onizuka, Kasai{nl}     Kono Yoshiyuki{nl}Chiaki{nl}     Nagashima Yuko",
   "notes": ""
  },
  {
   "id": "C14",
   "ptr": "92EFAD",
   "jp": " {nl} {nl}スペシャル{nl}   サンクス",
-  "en": "",
+  "en": "{nl}{nl}SPECIAL{nl}     THANKS",
   "notes": ""
  },
  {
   "id": "C15",
   "ptr": "92EFD1",
   "jp": "週刊少年{nl}   ジャンプ{nl} {nl}  堀江 信彦{nl}  町田 宗治{nl}  増田 真晃",
-  "en": "",
+  "en": "WEEKLY SHONEN{nl}     JUMP{nl}{nl}     Horie Nobuhiko{nl}     Machida Muneharu{nl}     Masuda Masaaki",
   "notes": ""
  },
  {
   "id": "C16",
   "ptr": "92F01F",
   "jp": "Vジャンプ{nl} {nl}  鳥嶋 和彦{nl}  高橋 俊昌{nl}  岡本 堅史",
-  "en": "",
+  "en": "V JUMP{nl}{nl}     Torishima Kazuhiko{nl}     Takahashi Toshimasa{nl}     Okamoto Kenji",
   "notes": ""
  },
  {
   "id": "C17",
   "ptr": "92F05F",
   "jp": "  松本 常男{nl}  赤松 直人{nl}  岩原 誠{nl}  渡邊 洋三{nl} {nl}  森下 孝三{nl}  蛭田 成一",
-  "en": "",
+  "en": "Matsumoto Tsuneo{nl}     Akamatsu Naoto{nl}     Iwahara Makoto{nl}     Watanabe Yozo{nl}{nl}     Morishita Kozo{nl}     Hiruta Seiichi",
   "notes": ""
  },
  {
   "id": "C18",
   "ptr": "92F0C1",
   "jp": "    青二プロ{nl}  スタジオタバック",
-  "en": "",
+  "en": "Aoni Production{nl}     Studio Tavac",
   "notes": ""
  },
  {
   "id": "C19",
   "ptr": "92F0E9",
   "jp": "  PRESENTED{nl}     BY{nl}   BANDAI",
-  "en": "",
+  "en": "PRESENTED{nl}          BY{nl}       BANDAI",
   "notes": ""
  },
  {
   "id": "S00",
   "ptr": "8ED999",
   "jp": " だぁーーーっ！",
-  "en": "",
+  "en": "Daaaaaah!",
   "notes": ""
  },
  {
   "id": "S01",
   "ptr": "8ED9AB",
   "jp": " あぶねーーーっ！",
-  "en": "",
+  "en": "Look ouuut!",
   "notes": ""
  },
  {
   "id": "S02",
   "ptr": "8ED9BF",
   "jp": " なっなんだぁーーー！",
-  "en": "",
+  "en": "Wh-Whaaat the--!",
   "notes": ""
  },
  {
   "id": "S03",
   "ptr": "8ED9D7",
   "jp": "てめえ、コノヤロォ！",
-  "en": "",
+  "en": "You bastard!",
   "notes": ""
  },
  {
   "id": "S04",
   "ptr": "8ED9ED",
   "jp": " おろせーーーっ！",
-  "en": "",
+  "en": "Put me dowwwn!",
   "notes": ""
  },
  {
   "id": "S05",
   "ptr": "8EDA01",
   "jp": "てめえが、",
-  "en": "",
+  "en": "You...",
   "notes": ""
  },
  {
   "id": "S06",
   "ptr": "8EDA0D",
   "jp": "おりちゃられらーっ！",
-  "en": "",
+  "en": "Lemme offa-da-laaa!",
   "notes": ""
  },
  {
   "id": "M00",
   "ptr": "88A01B",
   "jp": "話す  ",
-  "en": "",
+  "en": "Talk",
   "notes": ""
  },
  {
   "id": "M01",
   "ptr": "88A025",
   "jp": "なげる ",
-  "en": "",
+  "en": "Throw",
   "notes": ""
  },
  {
   "id": "M02",
   "ptr": "88A02F",
   "jp": "見る  ",
-  "en": "",
+  "en": "Look",
   "notes": ""
  },
  {
   "id": "M03",
   "ptr": "88A039",
   "jp": "取る  ",
-  "en": "",
+  "en": "Take",
   "notes": ""
  },
  {
   "id": "M04",
   "ptr": "88A043",
   "jp": "殴る  ",
-  "en": "",
+  "en": "Hit",
   "notes": ""
  },
  {
   "id": "M05",
   "ptr": "88A04D",
   "jp": "すわる ",
-  "en": "",
+  "en": "Sit",
   "notes": ""
  },
  {
   "id": "M06",
   "ptr": "88A057",
   "jp": "たつ  ",
-  "en": "",
+  "en": "Stand",
   "notes": ""
  },
  {
   "id": "M07",
   "ptr": "88A061",
   "jp": "つかう ",
-  "en": "",
+  "en": "Use",
   "notes": ""
  },
  {
   "id": "M08",
   "ptr": "88A06B",
   "jp": "のむ  ",
-  "en": "",
+  "en": "Drink",
   "notes": ""
  },
  {
   "id": "M09",
   "ptr": "88A075",
   "jp": "たのむ ",
-  "en": "",
+  "en": "Ask",
   "notes": ""
  },
  {
   "id": "M10",
   "ptr": "88A07F",
   "jp": "おみくじ",
-  "en": "",
+  "en": "Fortune",
   "notes": ""
  },
  {
   "id": "M11",
   "ptr": "88A089",
   "jp": "しらべる",
-  "en": "",
+  "en": "Search",
   "notes": ""
  },
  {
   "id": "M12",
   "ptr": "88A093",
   "jp": "買う  ",
-  "en": "",
+  "en": "Buy",
   "notes": ""
  }
 ]
