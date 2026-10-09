@@ -23,8 +23,117 @@ org $88A1A4             ; was: JSL A545 (load glyph), A5AB + A652 (colourise), A
     jsl vwf_draw
     bra vwf_ret
 
+; ---------------------------------------------------------------------------------------------------------------
+; Runtime word wrap + {page}. Box widths differ per scene (narration 15 cells, portrait box 13; last line of a
+; page 13 / 11), so the build can't wrap. The main text loop reads each word via JSL $88A168 at $88:A0CE; we
+; return FFFE (newline: the game's own handler consumes the code and pages when the box is full) instead of
+; a space whose next word won't fit, and handle FFE0 = {page}: newline without consuming until the last row.
+; Limit in px = cells * 16 - 12 (cells = $0F98 & $1F, or $0F99 & $0F on the last row $0F99 & $F0).
+; ---------------------------------------------------------------------------------------------------------------
+!SUM   = $FF0C
+!SPACE = $0300
+!PAGE  = $FFE0
+
+org $88A0CE
+    jsl wrap_read
+
+org $88A0B8             ; typing speed: a glyph every 2 frames instead of 4 (English has ~2.5x the glyphs)
+    and #$01
+
 org $B08000
-vwf_draw:               ; in: A16 X16, DP $00 = code * 32
+wrap_read:
+    php
+    phb
+    phx
+    phy
+    rep #$30
+    pea $7E7E
+    plb
+    plb
+.again:
+    jsl $88A168         ; A = word, DP $10-$12 = text pointer
+    rep #$30
+    cmp #!PAGE
+    bne .notpage
+    lda $1E0D
+    and #$00FF
+    bne +
+    inc $1E0A           ; nothing on the page yet: drop the code
+    bra .again
++   and #$00E0
+    sta !SUM
+    lda $0F99
+    and #$00F0
+    cmp !SUM
+    beq .newline        ; last row: a plain newline waits for a key and starts the next page
+    dec $1E0A           ; else newline, and the handler's increment leaves us on {page} again
+    bra .newline
+.notpage:
+    cmp #!SPACE
+    bne .ret
+    lda $1E12           ; x = current pixel position if a line is in progress
+    cmp !LAST
+    bne .ret            ; leading space: keep
+    lda !XPOS
+    beq .ret
+    clc
+    adc.l en_widths
+    and #$00FF          ; (x + space width; x < 256)
+    sta !SUM
+    lda $1E0A
+    inc
+    asl
+    tay
+-   lda [$10],y         ; add the widths of the following word
+    cmp #!SPACE+1
+    bcc +
+    cmp #$0400
+    bcs +
+    sec
+    sbc #!SPACE
+    tax
+    lda.l en_widths,x
+    and #$00FF
+    clc
+    adc !SUM
+    sta !SUM
+    iny
+    iny
+    bra -
++   lda $1E0D           ; limit: last row of the page or a normal row
+    and #$00E0
+    sta !TMP
+    lda $0F99
+    and #$00F0
+    cmp !TMP
+    bne +
+    lda $0F99
+    and #$000F
+    bra ++
++   lda $0F98
+    and #$001F
+++  asl
+    asl
+    asl
+    asl
+    sec
+    sbc #$000C
+    cmp !SUM
+    bcs .space          ; limit >= x + word: fits
+.newline:
+    lda #$FFFE
+    bra .ret
+.space:
+    lda #!SPACE
+.ret:
+    ply
+    plx
+    plb
+    plp
+    rep #$20
+    rtl
+
+vwf_draw:              ; in: A16 X16, DP $00 = code * 32
     lda $00
     cmp #$6000
     bcs +

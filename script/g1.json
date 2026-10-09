@@ -3,210 +3,210 @@
   "id": "1-000",
   "ptr": "8A9C1A",
   "jp": "シナリオ1{nl}  ポニーテールと男気",
-  "en": "",
+  "en": "Scenario 1{nl}Ponytail and Guts",
   "notes": ""
  },
  {
   "id": "1-001",
   "ptr": "8A9C3E",
   "jp": "入学早々、応援団の連中から{nl}一目をおかれ、ついて{nl}まわられる様になった{nl}前田太尊は",
-  "en": "",
+  "en": "Right after enrolling, Maeda Taison won the respect of the cheer squad, who started following him everywhere.",
   "notes": ""
  },
  {
   "id": "1-002",
   "ptr": "8A9C8C",
   "jp": "応援団とボクシング部の{nl}抗争に{nl}まき込まれ",
-  "en": "",
+  "en": "He got dragged into the feud between the cheer squad and the boxing club...",
   "notes": ""
  },
  {
   "id": "1-003",
   "ptr": "8A9CB8",
   "jp": "ボクシング部の連中から{nl}ねらわれるハメになった",
-  "en": "",
+  "en": "...and ended up with the boxing club gunning for him.",
   "notes": ""
  },
  {
   "id": "1-004",
   "ptr": "8A9CE4",
   "jp": "しかも、ぐうぜん空き地で{nl}ケンカした相手が停学中の{nl}ボクシング部のキャプテン{nl}畑中だった",
-  "en": "",
+  "en": "On top of that, the guy he happened to fight in the vacant lot turned out to be Hatanaka, the boxing club's suspended captain.",
   "notes": ""
  },
  {
   "id": "1-005",
   "ptr": "8A9D3C",
   "jp": "千秋ちゃん{nl}今から喫茶店で{nl}前田さんと会うんだけど{nl}{nl}千秋ちゃんも いっしょに{nl}いかない？",
-  "en": "",
+  "en": "Chiaki-chan, I'm meeting Maeda-san at the cafe now.{page}Want to come with me, Chiaki-chan?",
   "notes": ""
  },
  {
   "id": "1-006",
   "ptr": "8A9D90",
   "jp": "だけど私、前田くんに{nl}いろいろと うるさく{nl}言っちゃったから‥{nl}前田くん‥‥‥{nl}私の事‥‥‥{nl}怒ってたみたいだし‥",
-  "en": "",
+  "en": "But I nagged Maeda-kun about all sorts of stuff... Maeda-kun... seemed... mad at me...",
   "notes": ""
  },
  {
   "id": "1-007",
   "ptr": "8A9DF6",
   "jp": "あーゆーのってさ{nl}前田さん別に怒ってんじゃ{nl}ないと思うよ{nl}きっと{nl}テレくさいんだろ",
-  "en": "",
+  "en": "Oh, that? I don't think Maeda-san's mad at all. He's probably just embarrassed.",
   "notes": ""
  },
  {
   "id": "1-008",
   "ptr": "8A9E3E",
   "jp": "テレくさい‥‥？",
-  "en": "",
+  "en": "Embarrassed...?",
   "notes": ""
  },
  {
   "id": "1-009",
   "ptr": "8A9E4E",
   "jp": "その長い かみの{nl}ポニーテールに、でっかい{nl}白のリボンってのが{nl}好みらしいんだ{nl}{nl}{nl}{face:0800}ゲッ‥言ってはいけない{nl}事のような‥‥{nl}{nl}{face:0000}まあいいか！{nl}{nl}{nl}そんなことより{nl}前田さんと勝嗣も{nl}待ってるし 行こうよ",
-  "en": "",
+  "en": "Apparently he goes for long hair in a ponytail with a big white ribbon.{page}{face:0800}Oops... Maybe I wasn't supposed to say that...{page}{face:0000}Oh well!{page}Anyway, Maeda-san and Katsuji are waiting, so let's go!",
   "notes": ""
  },
  {
   "id": "1-010",
   "ptr": "8A9F10",
   "jp": "‥‥‥うん‥{nl}‥でも、{nl}やっぱり いいよ",
-  "en": "",
+  "en": "...Okay... ...But, actually, I'll pass.",
   "notes": ""
  },
  {
   "id": "1-011",
   "ptr": "8A9F38",
   "jp": "じゃあ連れて来て{nl}もらおうか",
-  "en": "",
+  "en": "Then we'll just have to bring her along.",
   "notes": ""
  },
  {
   "id": "1-012",
   "ptr": "8A9F54",
   "jp": "この間はどーも！{nl}おじょうさん、ちょっと{nl}あんたに用があるから{nl}ついて来てもらおーか！",
-  "en": "",
+  "en": "Thanks for the other day! Little lady, we've got business with you, so you're coming with us!",
   "notes": ""
  },
  {
   "id": "1-013",
   "ptr": "8A9FA8",
   "jp": "{face:0700}きゃあっ",
-  "en": "",
+  "en": "{face:0700}Eek!",
   "notes": ""
  },
  {
   "id": "1-014",
   "ptr": "8A9FB6",
   "jp": "{face:0800}あっ{nl}てめえっ！",
-  "en": "",
+  "en": "{face:0800}Hey! You bastard!",
   "notes": ""
  },
  {
   "id": "1-015",
   "ptr": "8A9FCA",
   "jp": "前田に伝えな！{nl}一人でボクシング部の{nl}部室へ来い！{nl}ほかの誰かにチクッたら{nl}女の事はせきにん{nl}もてねえってな‥",
-  "en": "",
+  "en": "Tell Maeda! Come alone to the boxing club room! If he squeals to anybody, we can't promise what happens to the girl...",
   "notes": ""
  },
  {
   "id": "1-016",
   "ptr": "8AA036",
   "jp": "ざけてんじゃねえぞ！",
-  "en": "",
+  "en": "Don't screw with me!",
   "notes": ""
  },
  {
   "id": "1-017",
   "ptr": "8AA04A",
   "jp": "聞いてるのか{nl}コラッ‼",
-  "en": "",
+  "en": "You listening?! Huh?!",
   "notes": ""
  },
  {
   "id": "1-018",
   "ptr": "8AA062",
   "jp": "ただし、売られたケンカは{nl}買うけどよ",
-  "en": "",
+  "en": "Still, if somebody picks a fight, I'll take it.",
   "notes": ""
  },
  {
   "id": "1-019",
   "ptr": "8AA088",
   "jp": "ぐわっ！",
-  "en": "",
+  "en": "Gwah!",
   "notes": ""
  },
  {
   "id": "1-020",
   "ptr": "8AA090",
   "jp": "しかし米示の奴{nl}おせえなー{nl}オレ見てこようか？",
-  "en": "",
+  "en": "Man, Yoneji's taking forever. Want me to go look?",
   "notes": ""
  },
  {
   "id": "1-021",
   "ptr": "8AA0C0",
   "jp": "どうした米示！",
-  "en": "",
+  "en": "What's wrong, Yoneji?!",
   "notes": ""
  },
  {
   "id": "1-022",
   "ptr": "8AA0D0",
   "jp": "ちょっと、前田さん{nl}食ってる場合ぢゃねーっ‼",
-  "en": "",
+  "en": "Maeda-san, this is no time to be eating!!",
   "notes": ""
  },
  {
   "id": "1-023",
   "ptr": "8AA0F6",
   "jp": "{face:0800}どっ、どうした米示ーっ！",
-  "en": "",
+  "en": "{face:0800}Wh-What happened, Yoneji?!",
   "notes": ""
  },
  {
   "id": "1-024",
   "ptr": "8AA112",
   "jp": "すまねえっ、前田さん{nl}千秋ちゃんが浜田と大橋に{nl}さらわれて{nl}前田さんに{nl}一人で部室に{nl}来るようにって‥‥",
-  "en": "",
+  "en": "Sorry, Maeda-san! Hamada and Ohashi grabbed Chiaki-chan, and they said you have to come to the club room alone...",
   "notes": ""
  },
  {
   "id": "1-025",
   "ptr": "8AA170",
   "jp": "なにぃーっ！{nl}勝嗣！{nl}後は まかせたぞ！",
-  "en": "",
+  "en": "Whaaat?! Katsuji! I'm leaving the rest to you!",
   "notes": ""
  },
  {
   "id": "1-026",
   "ptr": "8AA198",
   "jp": "前田さん！{nl}{nl}{nl}あ‥あとは{nl}まかせたって‥‥{nl}いったい‥‥",
-  "en": "",
+  "en": "Maeda-san!{page}L-Leaving the rest to me...? What's that supposed to...",
   "notes": ""
  },
  {
   "id": "1-027",
   "ptr": "8AA1C8",
   "jp": "スパゲティセット{nl}880円{nl}‥‥‥さすがだ！",
-  "en": "",
+  "en": "\"Spaghetti set: 880 yen\"... ...That's Maeda-san for you!",
   "notes": ""
  },
  {
   "id": "1-028",
   "ptr": "8AA1F4",
   "jp": "本当に一人で来やがったな{nl}なかなかリコウだぜ",
-  "en": "",
+  "en": "So you really came alone. Smart boy.",
   "notes": ""
  },
  {
   "id": "1-029",
   "ptr": "8AA220",
   "jp": "{face:0200}ゴチャゴチャ言ってねえで{nl}やるのか、やらねえのか{nl}ハッキリしろ！",
-  "en": "",
+  "en": "{face:0200}Quit yapping. Are we doing this or not? Make up your mind!",
   "notes": ""
  },
  {

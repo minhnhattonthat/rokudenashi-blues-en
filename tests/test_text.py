@@ -36,7 +36,7 @@ def test_text_ranges_fully_covered(rom):
 
 def test_identity_repack(rom):
     out = bytearray(rom)
-    text.write_script(out, text.original_blobs(rom), text.TEXT_RANGES)
+    text.write_script(out, text.original_blobs(rom), [list(r) for r in text.TEXT_RANGES])
     assert out == rom
 
 

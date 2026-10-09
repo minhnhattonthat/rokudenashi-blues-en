@@ -49,6 +49,35 @@ def pointers(rom):
             yield f"{g}-{k:03d}", slot, rd24(rom, slot)
 
 
+CREDITS_TABLE = 0x7D7D2  # $8F:D7D2: entries 00 + 24-bit pointer (bank $92), 80 = page break
+SHOUTS = (0x7598B, 7)    # $8E:D98B: 16-bit pointers (bank $8E) to battle/intro shouts
+MENU = (0x41FFF, 13)     # $88:9FFF: 16-bit pointers (bank $88) to 4-glyph command labels (own fixed-cell renderer)
+
+
+def credit_slots(rom):
+    o, out = CREDITS_TABLE, []
+    while rom[o] in (0x00, 0x80):
+        if rom[o] == 0x80:
+            o += 1
+            continue
+        if rom[o + 3] != 0x92:  # 00 08 FF F0..: the next table
+            break
+        out.append(o + 1)
+        o += 4
+    return out
+
+
+def other_pointers(rom):
+    """Yield (id, slot offset, slot size 2|3, string CPU address) for the non-script strings."""
+    for k, slot in enumerate(credit_slots(rom)):
+        yield f"C{k:02d}", slot, 3, rd24(rom, slot)
+    for prefix, (table, n) in (("S", SHOUTS), ("M", MENU)):
+        bank = cpu(table) & 0xFF0000
+        for k in range(n):
+            slot = table + 2 * k
+            yield f"{prefix}{k:02d}", slot, 2, bank | rom[slot] | rom[slot + 1] << 8
+
+
 def readable(raw):
     """Raw tbl text -> what a translator reads: substrings expanded, {end} dropped."""
     for i, s in enumerate(SUBS):
@@ -64,8 +93,12 @@ def dump(force=False):
         raw, n = JP.decode(rom, lorom(addr))
         groups.setdefault(sid.split("-")[0], []).append(
             {"id": sid, "ptr": f"{addr:06X}", "jp": readable(raw), "en": "", "notes": ""})
+    for sid, slot, size, addr in other_pointers(rom):
+        raw, n = JP.decode(rom, lorom(addr))
+        groups.setdefault("other", []).append(
+            {"id": sid, "ptr": f"{addr:06X}", "jp": readable(raw), "en": "", "notes": ""})
     for g, entries in groups.items():
-        path = SCRIPT / f"g{g}.json"
+        path = SCRIPT / (f"g{g}.json" if g != "other" else "other.json")
         if path.exists() and not force:
             print(f"skip {path.name} (exists; --force overwrites English)")
             continue
@@ -73,10 +106,9 @@ def dump(force=False):
         print(f"wrote {path.name}: {len(entries)}")
 
 
-def pack(rom, blobs, regions):
-    """Place blobs (id -> bytes) first-fit into regions [(start, end)] without crossing a 32 KB bank.
-    Returns id -> file offset. Raises if anything does not fit."""
-    free = [list(r) for r in regions]
+def pack(rom, blobs, free):
+    """Place blobs (id -> bytes) first-fit into free = [[start, end], ...] (consumed in place) without crossing a
+    32 KB bank. Returns id -> file offset. Raises if anything does not fit."""
     where = {}
     for sid, data in blobs.items():
         for r in free:
@@ -93,10 +125,10 @@ def pack(rom, blobs, regions):
     return where
 
 
-def write_script(rom, blobs, regions):
-    """Pack encoded strings (id -> bytes, in the order to place them) and repoint every slot."""
+def write_script(rom, blobs, free):
+    """Pack encoded strings (id -> bytes, in the order to place them) into free (see pack), repoint every slot."""
     slots = {sid: slot for sid, slot, _ in pointers(rom)}
-    where = pack(rom, blobs, regions)
+    where = pack(rom, blobs, free)
     for sid, off in where.items():
         rom[slots[sid]:slots[sid] + 3] = cpu(off).to_bytes(3, "little")
     return where
