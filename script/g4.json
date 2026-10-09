@@ -3,1113 +3,1113 @@
   "id": "4-000",
   "ptr": "8B986C",
   "jp": "渋谷に遊びに行った太尊は{nl}小太郎に渋谷楽翠をしきる{nl}鬼塚の話を聞いた",
-  "en": "",
+  "en": "Taison went to hang out in Shibuya, where Kotaro told him about Onizuka, who runs Shibuya Rakusui.",
   "notes": ""
  },
  {
   "id": "4-001",
   "ptr": "8B98B0",
   "jp": "しかし運悪く{nl}鬼塚にも話を聞かれてしまった",
-  "en": "",
+  "en": "But as bad luck would have it, Onizuka overheard them.",
   "notes": ""
  },
  {
   "id": "4-002",
   "ptr": "8B98DA",
   "jp": "太尊は小太郎をかばい{nl}とりあえず吉祥寺に{nl}もどったのだが‥",
-  "en": "",
+  "en": "Taison covered for Kotaro and headed back to Kichijoji for the time being...",
   "notes": ""
  },
  {
   "id": "4-003",
   "ptr": "8B9914",
   "jp": "次の日に鬼塚たちが{nl}太尊と小太郎をおって{nl}吉祥寺にあらわれた",
-  "en": "",
+  "en": "The next day, Onizuka and his crew showed up in Kichijoji, hunting for Taison and Kotaro.",
   "notes": ""
  },
  {
   "id": "4-004",
   "ptr": "8B9950",
   "jp": "シナリオ4{nl} CRUSH ON YOU",
-  "en": "",
+  "en": "Scenario 4{nl}CRUSH ON YOU",
   "notes": ""
  },
  {
   "id": "4-005",
   "ptr": "8B9978",
   "jp": "お前なにやってんだ‼{nl}授業中だろうが‼",
-  "en": "",
+  "en": "What do you think you're doing?! Class is in session!!",
   "notes": ""
  },
  {
   "id": "4-006",
   "ptr": "8B999C",
   "jp": "ゲッ‥やべえ",
-  "en": "",
+  "en": "Gah... Crap.",
   "notes": ""
  },
  {
   "id": "4-007",
   "ptr": "8B99AA",
   "jp": "前田さん‥{nl}あいつらと やんのか",
-  "en": "",
+  "en": "Maeda-san... You're gonna take those guys on?",
   "notes": ""
  },
  {
   "id": "4-008",
   "ptr": "8B99C8",
   "jp": "むこうがせめてくるって{nl}小太郎が 言ってんだから{nl}しょーがねーだろ",
-  "en": "",
+  "en": "Kotaro says they're coming after us, so what choice have I got?",
   "notes": ""
  },
  {
   "id": "4-009",
   "ptr": "8B9A04",
   "jp": "だいたい{nl}俺一人でやるって{nl}言ってんじゃねーか",
-  "en": "",
+  "en": "Besides, I keep telling you I'll handle it alone.",
   "notes": ""
  },
  {
   "id": "4-010",
   "ptr": "8B9A2C",
   "jp": "でも 小太郎が{nl}一人じゃ ムリだって‥",
-  "en": "",
+  "en": "But Kotaro says you can't do it alone...",
   "notes": ""
  },
  {
   "id": "4-011",
   "ptr": "8B9A50",
   "jp": "てがら ひとりじめ{nl}しようってんじゃ{nl}ねーだろうな",
-  "en": "",
+  "en": "You're not trying to hog all the glory, are ya?",
   "notes": ""
  },
  {
   "id": "4-012",
   "ptr": "8B9A7E",
   "jp": "つめてえんじゃ{nl}ねーのか 前田さん",
-  "en": "",
+  "en": "That's cold, Maeda-san.",
   "notes": ""
  },
  {
   "id": "4-013",
   "ptr": "8B9A9A",
   "jp": "でも鬼塚ってヤロウは{nl}めちゃくちゃ つえーぜ",
-  "en": "",
+  "en": "But that Onizuka guy is crazy strong.",
   "notes": ""
  },
  {
   "id": "4-014",
   "ptr": "8B9AC6",
   "jp": "うるせーな",
-  "en": "",
+  "en": "Shut up.",
   "notes": ""
  },
  {
   "id": "4-015",
   "ptr": "8B9AD2",
   "jp": "ゴチャゴチャ{nl}言ってんじゃねー{nl}{nl}{face:0200}鬼塚なんて{nl}メじゃねーよ",
-  "en": "",
+  "en": "Quit yapping.{page}{face:0200}Onizuka's nothing.",
   "notes": ""
  },
  {
   "id": "4-016",
   "ptr": "8B9B08",
   "jp": "{face:0300}‥‥‥‥{nl}え",
-  "en": "",
+  "en": "{face:0300}...... Huh?",
   "notes": ""
  },
  {
   "id": "4-017",
   "ptr": "8B9B16",
   "jp": "わかったよ 前田さん{nl}小太郎は俺たちが{nl}まもるぜ",
-  "en": "",
+  "en": "Got it, Maeda-san. We'll protect Kotaro.",
   "notes": ""
  },
  {
   "id": "4-018",
   "ptr": "8B9B42",
   "jp": "俺たちに まかせとけよ‼",
-  "en": "",
+  "en": "Leave it to us!!",
   "notes": ""
  },
  {
   "id": "4-019",
   "ptr": "8B9B5C",
   "jp": "じゃあ 俺たちは{nl}鬼塚をさがすぜ‼",
-  "en": "",
+  "en": "Then we'll go look for Onizuka!!",
   "notes": ""
  },
  {
   "id": "4-020",
   "ptr": "8B9B7E",
   "jp": "オウ‼{nl}鬼塚には{nl}かりもあるしなっ",
-  "en": "",
+  "en": "Yeah!! I owe Onizuka some payback anyway!",
   "notes": ""
  },
  {
   "id": "4-021",
   "ptr": "8B9BA2",
   "jp": "よーし いくぞ‼",
-  "en": "",
+  "en": "All right, let's go!!",
   "notes": ""
  },
  {
   "id": "4-022",
   "ptr": "8B9BB4",
   "jp": "おい前田‥‥{nl}大丈夫かよ‥",
-  "en": "",
+  "en": "Hey, Maeda... You gonna be okay?",
   "notes": ""
  },
  {
   "id": "4-023",
   "ptr": "8B9BCC",
   "jp": "しんぱい すんじゃねー{nl}この時間の体育館は{nl}使ってねーんだよ",
-  "en": "",
+  "en": "Don't worry. Nobody uses the gym this time of day.",
   "notes": ""
  },
  {
   "id": "4-024",
   "ptr": "8B9C00",
   "jp": "そうじゃないよ{nl}鬼塚さんの事だよ‥",
-  "en": "",
+  "en": "That's not what I mean. I mean Onizuka-san...",
   "notes": ""
  },
  {
   "id": "4-025",
   "ptr": "8B9C1C",
   "jp": "鬼塚さんは{nl}そんな生ぬるい相手じゃ{nl}ないよ‥‥",
-  "en": "",
+  "en": "Onizuka-san isn't some pushover...",
   "notes": ""
  },
  {
   "id": "4-026",
   "ptr": "8B9C44",
   "jp": "バカヤロー{nl}よけいなしんぱいを{nl}するんじゃねー",
-  "en": "",
+  "en": "Idiot. Quit worrying about nothing.",
   "notes": ""
  },
  {
   "id": "4-027",
   "ptr": "8B9C70",
   "jp": "さっき そこで{nl}ヘンな制服をきた奴に{nl}おめーのこと聞かれたぜ",
-  "en": "",
+  "en": "Some guy in a weird uniform was just over there asking about you.",
   "notes": ""
  },
  {
   "id": "4-028",
   "ptr": "8B9CAE",
   "jp": "おめー いったい{nl}何やらかし{nl}やがったんだ",
-  "en": "",
+  "en": "What the hell did you get yourself into?",
   "notes": ""
  },
  {
   "id": "4-029",
   "ptr": "8B9CD6",
   "jp": "うるせー‼{nl}てめーにゃ関係ねー‼",
-  "en": "",
+  "en": "Shut up!! It's none of your business!!",
   "notes": ""
  },
  {
   "id": "4-030",
   "ptr": "8B9CF6",
   "jp": "前田さん どうした？{nl}いそがしそーだな",
-  "en": "",
+  "en": "Maeda-san, what's up? You look busy.",
   "notes": ""
  },
  {
   "id": "4-031",
   "ptr": "8B9D1A",
   "jp": "うるせー‼",
-  "en": "",
+  "en": "Shut up!!",
   "notes": ""
  },
  {
   "id": "4-032",
   "ptr": "8B9D26",
   "jp": "なにしやがんだ‼",
-  "en": "",
+  "en": "What was that for?!",
   "notes": ""
  },
  {
   "id": "4-033",
   "ptr": "8B9D38",
   "jp": "{face:0300}いそがしーんだよ‼",
-  "en": "",
+  "en": "{face:0300}I'm busy!!",
   "notes": ""
  },
  {
   "id": "4-034",
   "ptr": "8B9D4E",
   "jp": "前田くん{nl}また悪いことを‥",
-  "en": "",
+  "en": "Maeda-kun... Up to no good again...",
   "notes": ""
  },
  {
   "id": "4-035",
   "ptr": "8B9D68",
   "jp": "前田‼ しんぱいするな{nl}後は俺にまかせろ‼",
-  "en": "",
+  "en": "Maeda!! Don't worry. Leave the rest to me!!",
   "notes": ""
  },
  {
   "id": "4-036",
   "ptr": "8B9D92",
   "jp": "ふふふ{nl}俺のカンでは鬼塚は必ず{nl}ここに来る！",
-  "en": "",
+  "en": "Heh heh heh. My gut tells me Onizuka's bound to show up here!",
   "notes": ""
  },
  {
   "id": "4-037",
   "ptr": "8B9DC0",
   "jp": "{face:0400}何言ってんだ{nl}お前わ！",
-  "en": "",
+  "en": "{face:0400}What're you talking about?!",
   "notes": ""
  },
  {
   "id": "4-038",
   "ptr": "8B9DD8",
   "jp": "そんなの{nl}ムチャクチャだよ{nl}兵ちゃん‥",
-  "en": "",
+  "en": "That's crazy, Hei-chan...",
   "notes": ""
  },
  {
   "id": "4-039",
   "ptr": "8B9DFE",
   "jp": "話は 全て聞いたぜ{nl}ここは俺がまもってやる‼",
-  "en": "",
+  "en": "I heard everything. I'll guard this place!!",
   "notes": ""
  },
  {
   "id": "4-040",
   "ptr": "8B9E2A",
   "jp": "また ぼくのジャマをしに{nl}来たんじゃ‥",
-  "en": "",
+  "en": "Did you come to get in my way again...?",
   "notes": ""
  },
  {
   "id": "4-041",
   "ptr": "8B9E50",
   "jp": "おい 今、米示たちが{nl}はしって行ったけど{nl}何があったんだ！",
-  "en": "",
+  "en": "Hey, Yoneji and the guys just ran off. What's going on?!",
   "notes": ""
  },
  {
   "id": "4-042",
   "ptr": "8B9E86",
   "jp": "そんなに{nl}俺がキライか{nl}小太郎",
-  "en": "",
+  "en": "You hate me that much, Kotaro?",
   "notes": ""
  },
  {
   "id": "4-043",
   "ptr": "8B9EA6",
   "jp": "お‥お前ら‥‥",
-  "en": "",
+  "en": "Y-You guys...",
   "notes": ""
  },
  {
   "id": "4-044",
   "ptr": "8B9EB2",
   "jp": "こいつをまもるのが{nl}俺たちの使命なんだよ",
-  "en": "",
+  "en": "Protecting him is our mission.",
   "notes": ""
  },
  {
   "id": "4-045",
   "ptr": "8B9EDA",
   "jp": "なんのマネだお前ら",
-  "en": "",
+  "en": "What's the big idea, you guys?",
   "notes": ""
  },
  {
   "id": "4-046",
   "ptr": "8B9EEC",
   "jp": "うっ‥",
-  "en": "",
+  "en": "Ugh...",
   "notes": ""
  },
  {
   "id": "4-047",
   "ptr": "8B9EF4",
   "jp": "な‥何言ってんだよ{nl}お前ら‥‥{nl}{nl}もうそんな事しなくて{nl}いいんだよ",
-  "en": "",
+  "en": "Wh-What are you saying, you guys...{page}You don't have to do that anymore.",
   "notes": ""
  },
  {
   "id": "4-048",
   "ptr": "8B9F2E",
   "jp": "俺がつかまりさえすれば{nl}この抗争は{nl}終わりなんだから",
-  "en": "",
+  "en": "If I just let them catch me, this whole feud is over.",
   "notes": ""
  },
  {
   "id": "4-049",
   "ptr": "8B9F62",
   "jp": "フッ{nl}お前をつかまえたら{nl}終わりだぁ？{nl}バカじゃねーのか",
-  "en": "",
+  "en": "Heh. Catch you and it's over? Are you stupid?",
   "notes": ""
  },
  {
   "id": "4-050",
   "ptr": "8B9F96",
   "jp": "{face:0100}俺は前田を{nl}ぶっ殺しに{nl}来たんだよ",
-  "en": "",
+  "en": "{face:0100}I came here to kill Maeda.",
   "notes": ""
  },
  {
   "id": "4-051",
   "ptr": "8B9FBA",
   "jp": "んなこたー{nl}わかってらぁ",
-  "en": "",
+  "en": "Like we didn't know that.",
   "notes": ""
  },
  {
   "id": "4-052",
   "ptr": "8B9FD2",
   "jp": "小太郎には{nl}ふれさせねーよ",
-  "en": "",
+  "en": "You ain't laying a finger on Kotaro.",
   "notes": ""
  },
  {
   "id": "4-053",
   "ptr": "8B9FEC",
   "jp": "大橋ーっ",
-  "en": "",
+  "en": "Ohashiii!",
   "notes": ""
  },
  {
   "id": "4-054",
   "ptr": "8B9FF6",
   "jp": "4さいぐらいから{nl}やりなおして来い",
-  "en": "",
+  "en": "Go back to being four and try growing up again.",
   "notes": ""
  },
  {
   "id": "4-055",
   "ptr": "8BA018",
   "jp": "考えたら{nl}かわいそーな{nl}奴だぜ",
-  "en": "",
+  "en": "Poor guy, when you think about it.",
   "notes": ""
  },
  {
   "id": "4-056",
   "ptr": "8BA038",
   "jp": "たぶん{nl}今までのこと{nl}はんせいしてるはずだ",
-  "en": "",
+  "en": "He's probably sorry for everything he's done by now.",
   "notes": ""
  },
  {
   "id": "4-057",
   "ptr": "8BA064",
   "jp": "まあ何にしても{nl}吉祥寺の勝ちだ‼",
-  "en": "",
+  "en": "Anyway, Kichijoji wins!!",
   "notes": ""
  },
  {
   "id": "4-058",
   "ptr": "8BA086",
   "jp": "俺が‥‥{nl}このままつかまれば{nl}この抗争も終るのかな‥",
-  "en": "",
+  "en": "If I just... let them catch me... would this feud end...?",
   "notes": ""
  },
  {
   "id": "4-059",
   "ptr": "8BA0BA",
   "jp": "つべこべ言うな‼",
-  "en": "",
+  "en": "Quit your whining!!",
   "notes": ""
  },
  {
   "id": "4-060",
   "ptr": "8BA0CC",
   "jp": "俺たちがまもってやるから{nl}そんなしんぱい{nl}することねーよ",
-  "en": "",
+  "en": "We'll protect you, so you don't need to worry about that.",
   "notes": ""
  },
  {
   "id": "4-061",
   "ptr": "8BA100",
   "jp": "へ‥ へへ‥{nl}前田さんなら オマエを{nl}さがしにいっちまった‥",
-  "en": "",
+  "en": "H-Heh heh... Maeda-san went off looking for you...",
   "notes": ""
  },
  {
   "id": "4-062",
   "ptr": "8BA138",
   "jp": "でも仲間におわれるなんて{nl}おまえもかわってるよなー{nl}ホントの話しただけで‥",
-  "en": "",
+  "en": "But getting hunted by your own crew... You're a weird one too. All you did was tell the truth...",
   "notes": ""
  },
  {
   "id": "4-063",
   "ptr": "8BA182",
   "jp": "わすれてるよ{nl}兵ちゃん",
-  "en": "",
+  "en": "You're forgetting something, Hei-chan.",
   "notes": ""
  },
  {
   "id": "4-064",
   "ptr": "8BA19A",
   "jp": "{face:0200}よけーな事{nl}言うんじゃねーよ",
-  "en": "",
+  "en": "{face:0200}Keep your trap shut.",
   "notes": ""
  },
  {
   "id": "4-065",
   "ptr": "8BA1B8",
   "jp": "手がかりは あったか？",
-  "en": "",
+  "en": "Any leads?",
   "notes": ""
  },
  {
   "id": "4-066",
   "ptr": "8BA1CE",
   "jp": "この辺はひととおり{nl}さがしたんだけど{nl}誰も知らねーってよ",
-  "en": "",
+  "en": "We searched all around here, but nobody knows anything.",
   "notes": ""
  },
  {
   "id": "4-067",
   "ptr": "8BA204",
   "jp": "見つけたら{nl}喫茶店にいくぜ",
-  "en": "",
+  "en": "If we find them, we'll head to the cafe.",
   "notes": ""
  },
  {
   "id": "4-068",
   "ptr": "8BA220",
   "jp": "ああ{nl}たのんだぜ‼",
-  "en": "",
+  "en": "Yeah. Counting on you!!",
   "notes": ""
  },
  {
   "id": "4-069",
   "ptr": "8BA234",
   "jp": "鬼塚は間違いなく{nl}この地下街に{nl}すがたをあらわすハズだ",
-  "en": "",
+  "en": "Onizuka's bound to show himself in this underground mall.",
   "notes": ""
  },
  {
   "id": "4-070",
   "ptr": "8BA26C",
   "jp": "それとも{nl}この小兵二様に{nl}恐れをなしたかぁ",
-  "en": "",
+  "en": "Or is he too scared of the great Koheiji-sama?",
   "notes": ""
  },
  {
   "id": "4-071",
   "ptr": "8BA298",
   "jp": "兵ちゃん{nl}やめようよ‥{nl}あぶないよ‥",
-  "en": "",
+  "en": "Hei-chan, let's quit... It's dangerous...",
   "notes": ""
  },
  {
   "id": "4-072",
   "ptr": "8BA2BC",
   "jp": "おい前田さん{nl}本当に鬼塚ってヤローは{nl}来るのかよ",
-  "en": "",
+  "en": "Hey, Maeda-san, is that Onizuka guy really coming?",
   "notes": ""
  },
  {
   "id": "4-073",
   "ptr": "8BA2E8",
   "jp": "ぼくは君たちと違って{nl}サボッてるんじゃないよ{nl}{nl}クラスいいんとしての{nl}しごとが‥",
-  "en": "",
+  "en": "Unlike you guys, I'm not skipping class.{page}I've got class rep duties...",
   "notes": ""
  },
  {
   "id": "4-074",
   "ptr": "8BA334",
   "jp": "おい前田‼{nl}ヘンな制服の奴ら{nl}知らねーか？{nl}うちのヒロトらが{nl}やられちまったらしいんだ",
-  "en": "",
+  "en": "Hey, Maeda!! You seen any guys in weird uniforms? Sounds like they got our Hiroto and his buddies.",
   "notes": ""
  },
  {
   "id": "4-075",
   "ptr": "8BA386",
   "jp": "{face:0800}な、なにー！{nl}{nl}{nl}ヒロトって誰だ⁉",
-  "en": "",
+  "en": "{face:0800}Wh-Whaaat!{page}Who's Hiroto?!",
   "notes": ""
  },
  {
   "id": "4-076",
   "ptr": "8BA3AC",
   "jp": "フハハハ{nl}話は聞いたぜ{nl}{nl}誰か{nl}わすれちゃいねーかい⁉",
-  "en": "",
+  "en": "Fwahahaha! I heard everything.{page}Haven't you forgotten somebody?!",
   "notes": ""
  },
  {
   "id": "4-077",
   "ptr": "8BA3E2",
   "jp": "{face:0300}どうしたんだ‼{nl}武藤‼ 大橋‼{nl}しっかりしろ‼",
-  "en": "",
+  "en": "{face:0300}What happened?! Muto!! Ohashi!! Hang in there!!",
   "notes": ""
  },
  {
   "id": "4-078",
   "ptr": "8BA416",
   "jp": "鬼塚が‥{nl}小太郎を‥{nl}やられた‥",
-  "en": "",
+  "en": "Onizuka... Kotaro... They got him...",
   "notes": ""
  },
  {
   "id": "4-079",
   "ptr": "8BA438",
   "jp": "前田さん‥{nl}オレ‥",
-  "en": "",
+  "en": "Maeda-san... I...",
   "notes": ""
  },
  {
   "id": "4-080",
   "ptr": "8BA448",
   "jp": "もういい{nl}しゃべるな{nl}病院へ連れて行ってやる",
-  "en": "",
+  "en": "That's enough. Don't talk. I'm taking you to the hospital.",
   "notes": ""
  },
  {
   "id": "4-081",
   "ptr": "8BA474",
   "jp": "俺たちはいいから‥{nl}鬼塚が‥{nl}地下街に来いって‥",
-  "en": "",
+  "en": "Never mind us... Onizuka... said to come to the underground mall...",
   "notes": ""
  },
  {
   "id": "4-082",
   "ptr": "8BA4A2",
   "jp": "小太郎を‥{nl}たすけてやってくれ",
-  "en": "",
+  "en": "Please... save Kotaro...",
   "notes": ""
  },
  {
   "id": "4-083",
   "ptr": "8BA4C0",
   "jp": "{face:0A00}わかった{nl}後は しんぱいするな",
-  "en": "",
+  "en": "{face:0A00}Got it. Don't worry about the rest.",
   "notes": ""
  },
  {
   "id": "4-084",
   "ptr": "8BA4E2",
   "jp": "この辺は{nl}何度もさがしたんだけど{nl}いねーんだよ、奴ら",
-  "en": "",
+  "en": "We searched around here over and over, but they're nowhere to be found.",
   "notes": ""
  },
  {
   "id": "4-085",
   "ptr": "8BA514",
   "jp": "もうちょっと{nl}さがしてみるわ",
-  "en": "",
+  "en": "I'll look a little more.",
   "notes": ""
  },
  {
   "id": "4-086",
   "ptr": "8BA532",
   "jp": "フフフ‥{nl}どうやら鬼塚は{nl}逃げたようだな",
-  "en": "",
+  "en": "Heh heh heh... Looks like Onizuka ran away.",
   "notes": ""
  },
  {
   "id": "4-087",
   "ptr": "8BA55C",
   "jp": "前田よ 鬼塚のかわりに{nl}お前を倒して{nl}やろうか‥‥フフフ",
-  "en": "",
+  "en": "Maeda, maybe I'll beat you instead of Onizuka... Heh heh heh.",
   "notes": ""
  },
  {
   "id": "4-088",
   "ptr": "8BA590",
   "jp": "兵ちゃん{nl}もう帰ろうよー",
-  "en": "",
+  "en": "Hei-chan, let's go home already...",
   "notes": ""
  },
  {
   "id": "4-089",
   "ptr": "8BA5AA",
   "jp": "大橋と武藤は{nl}もう大丈夫だから{nl}行ってやってくれ‼",
-  "en": "",
+  "en": "Ohashi and Muto are okay now, so go on!!",
   "notes": ""
  },
  {
   "id": "4-090",
   "ptr": "8BA5D8",
   "jp": "さっきキミの仲間が{nl}キズだらけで{nl}運ばれて来てたよ",
-  "en": "",
+  "en": "Your friends were brought in a little while ago, all beaten up.",
   "notes": ""
  },
  {
   "id": "4-091",
   "ptr": "8BA60C",
   "jp": "{face:0100}大橋と武藤が{nl}キズだらけで{nl}運ばれていったぞ‼{nl}いったい何なんだ？",
-  "en": "",
+  "en": "{face:0100}Ohashi and Muto got carried off all beaten up!! What the hell's going on?",
   "notes": ""
  },
  {
   "id": "4-092",
   "ptr": "8BA650",
   "jp": "フフフ‥{nl}戦士にも休息ってやつが{nl}ひつようなのさ‥",
-  "en": "",
+  "en": "Heh heh heh... Even a warrior needs his rest...",
   "notes": ""
  },
  {
   "id": "4-093",
   "ptr": "8BA682",
   "jp": "あー ほっとしたよ{nl}兵ちゃん",
-  "en": "",
+  "en": "Phew, what a relief, Hei-chan.",
   "notes": ""
  },
  {
   "id": "4-094",
   "ptr": "8BA6A0",
   "jp": "あー前田さん",
-  "en": "",
+  "en": "Oh, Maeda-san.",
   "notes": ""
  },
  {
   "id": "4-095",
   "ptr": "8BA6AA",
   "jp": "何してんだ おまえ",
-  "en": "",
+  "en": "What're you doing?",
   "notes": ""
  },
  {
   "id": "4-096",
   "ptr": "8BA6BE",
   "jp": "いやー鬼塚が{nl}かくれてねーかなって‥",
-  "en": "",
+  "en": "Well, I figured Onizuka might be hiding around here...",
   "notes": ""
  },
  {
   "id": "4-097",
   "ptr": "8BA6E0",
   "jp": "前田や‼",
-  "en": "",
+  "en": "It's Maeda!!",
   "notes": ""
  },
  {
   "id": "4-098",
   "ptr": "8BA6E8",
   "jp": "ぶっ殺してやる",
-  "en": "",
+  "en": "I'll kill you.",
   "notes": ""
  },
  {
   "id": "4-099",
   "ptr": "8BA6F8",
   "jp": "‥‥‥",
-  "en": "",
+  "en": "......",
   "notes": ""
  },
  {
   "id": "4-100",
   "ptr": "8BA6FE",
   "jp": "フン{nl}来たか",
-  "en": "",
+  "en": "Hmph. So you came.",
   "notes": ""
  },
  {
   "id": "4-101",
   "ptr": "8BA70C",
   "jp": "ま‥ 前田‥",
-  "en": "",
+  "en": "M-Maeda...",
   "notes": ""
  },
  {
   "id": "4-102",
   "ptr": "8BA718",
   "jp": "出てていいぜ",
-  "en": "",
+  "en": "You can leave now.",
   "notes": ""
  },
  {
   "id": "4-103",
   "ptr": "8BA726",
   "jp": "みんな{nl}おまえに{nl}会いたかったんだぜ",
-  "en": "",
+  "en": "Everybody's been dying to see you.",
   "notes": ""
  },
  {
   "id": "4-104",
   "ptr": "8BA74A",
   "jp": "前田‥{nl}ごめんよ‥{nl}みんな俺のために‥",
-  "en": "",
+  "en": "Maeda... I'm sorry... Everyone got hurt because of me...",
   "notes": ""
  },
  {
   "id": "4-105",
   "ptr": "8BA770",
   "jp": "‥‥‥{nl}上へいってろ",
-  "en": "",
+  "en": "...... Go upstairs.",
   "notes": ""
  },
  {
   "id": "4-106",
   "ptr": "8BA782",
   "jp": "なんやと‼",
-  "en": "",
+  "en": "What'd ya say?!",
   "notes": ""
  },
  {
   "id": "4-107",
   "ptr": "8BA78E",
   "jp": "おまえら全員{nl}こっから出ていけ！",
-  "en": "",
+  "en": "All of you, get out of here!",
   "notes": ""
  },
  {
   "id": "4-108",
   "ptr": "8BA7AE",
   "jp": "ふざけやがって‼",
-  "en": "",
+  "en": "Screw you!!",
   "notes": ""
  },
  {
   "id": "4-109",
   "ptr": "8BA7BE",
   "jp": "{face:0200}出ていけ{nl}言うてんのやろが‼",
-  "en": "",
+  "en": "{face:0200}I said get out, ya hear me?!",
   "notes": ""
  },
  {
   "id": "4-110",
   "ptr": "8BA7E0",
   "jp": "どうやら誰にも{nl}やられるトコ見られたく{nl}ねーらしいからな",
-  "en": "",
+  "en": "Looks like he doesn't want anybody watching him get beaten.",
   "notes": ""
  },
  {
   "id": "4-111",
   "ptr": "8BA816",
   "jp": "ワレぁ アホか",
-  "en": "",
+  "en": "Are ya stupid or what?",
   "notes": ""
  },
  {
   "id": "4-112",
   "ptr": "8BA826",
   "jp": "{face:0100}てめぇ‥",
-  "en": "",
+  "en": "{face:0100}You bastard...",
   "notes": ""
  },
  {
   "id": "4-113",
   "ptr": "8BA834",
   "jp": "さいてい20回{nl}殺す‼",
-  "en": "",
+  "en": "I'll kill you at least twenty times!!",
   "notes": ""
  },
  {
   "id": "4-114",
   "ptr": "8BA84C",
   "jp": "お‥ 鬼塚さん‼",
-  "en": "",
+  "en": "O-Onizuka-san!!",
   "notes": ""
  },
  {
   "id": "4-115",
   "ptr": "8BA85C",
   "jp": "お‥ 鬼塚ぁー⁉",
-  "en": "",
+  "en": "O-Onizukaaa?!",
   "notes": ""
  },
  {
   "id": "4-116",
   "ptr": "8BA86E",
   "jp": "さがしたぜ{nl}小太郎",
-  "en": "",
+  "en": "Been looking for you, Kotaro.",
   "notes": ""
  },
  {
   "id": "4-117",
   "ptr": "8BA882",
   "jp": "んん？{nl}前田の野郎は どこだ？",
-  "en": "",
+  "en": "Hm? Where's that punk Maeda?",
   "notes": ""
  },
  {
   "id": "4-118",
   "ptr": "8BA8A0",
   "jp": "こ‥これで‥‥{nl}これで抗争が終わる‥‥",
-  "en": "",
+  "en": "Th-This... This'll end the feud...",
   "notes": ""
  },
  {
   "id": "4-119",
   "ptr": "8BA8C4",
   "jp": "あーーっ{nl}武藤ォーーっ！",
-  "en": "",
+  "en": "Aaagh! Mutooo!",
   "notes": ""
  },
  {
   "id": "4-120",
   "ptr": "8BA8DC",
   "jp": "‥‥‥‥わかった",
-  "en": "",
+  "en": "...... Fine.",
   "notes": ""
  },
  {
   "id": "4-121",
   "ptr": "8BA8E8",
   "jp": "‥‥‥‥{nl}{nl}{nl}かんけーねえだろ",
-  "en": "",
+  "en": "......{page}None of your business.",
   "notes": ""
  },
  {
   "id": "4-122",
   "ptr": "8BA904",
   "jp": "あっ おまえら‼",
-  "en": "",
+  "en": "Ah, you guys!!",
   "notes": ""
  },
  {
   "id": "4-123",
   "ptr": "8BA916",
   "jp": "やっと見つけたぜ‼{nl}前田さんと鬼塚は{nl}どこだ‼",
-  "en": "",
+  "en": "Finally found you!! Where are Maeda-san and Onizuka?!",
   "notes": ""
  },
  {
   "id": "4-124",
   "ptr": "8BA942",
   "jp": "そこの地下街や",
-  "en": "",
+  "en": "Down in that underground mall.",
   "notes": ""
  },
  {
   "id": "4-125",
   "ptr": "8BA952",
   "jp": "二人でタイマンってわけか{nl}じゃあ俺らは{nl}入っちゃいけねーな",
-  "en": "",
+  "en": "So it's a one-on-one between those two. Then we'd better stay out of it.",
   "notes": ""
  },
  {
   "id": "4-126",
   "ptr": "8BA988",
   "jp": "ちょっ‥‥{nl}ちょっと待て‼{nl}てめードコいくんだ⁉",
-  "en": "",
+  "en": "Wh-- Wait a sec!! Where the hell are you going?!",
   "notes": ""
  },
  {
   "id": "4-127",
   "ptr": "8BA9B8",
   "jp": "倒しに‥‥",
-  "en": "",
+  "en": "To take down...",
   "notes": ""
  },
  {
   "id": "4-128",
   "ptr": "8BA9C2",
   "jp": "前田と‥‥{nl}鬼塚さんを",
-  "en": "",
+  "en": "Maeda... and Onizuka-san.",
   "notes": ""
  },
  {
   "id": "4-129",
   "ptr": "8BA9D4",
   "jp": "ええっ⁉{nl}鬼塚さんを倒すって‥‥",
-  "en": "",
+  "en": "Whaaat?! Take down Onizuka-san...?",
   "notes": ""
  },
  {
   "id": "4-130",
   "ptr": "8BA9F0",
   "jp": "俺が言い出さなきゃ{nl}誰がやるんだよ",
-  "en": "",
+  "en": "If I don't step up, who will?",
   "notes": ""
  },
  {
   "id": "4-131",
   "ptr": "8BAA12",
   "jp": "もうウンザリだぜ",
-  "en": "",
+  "en": "I've had it up to here.",
   "notes": ""
  },
  {
   "id": "4-132",
   "ptr": "8BAA24",
   "jp": "上山さん‥‥",
-  "en": "",
+  "en": "Kamiyama-san...",
   "notes": ""
  },
  {
   "id": "4-133",
   "ptr": "8BAA2E",
   "jp": "待てよ{nl}前田さんのカオを{nl}つぶす気か？",
-  "en": "",
+  "en": "Hold it. You trying to make Maeda-san lose face?",
   "notes": ""
  },
  {
   "id": "4-134",
   "ptr": "8BAA52",
   "jp": "どうしてもって{nl}言うんなら{nl}俺が相手になってやる",
-  "en": "",
+  "en": "If you're dead set on it, you'll have to go through me.",
   "notes": ""
  },
  {
   "id": "4-135",
   "ptr": "8BAA80",
   "jp": "上山くん‼",
-  "en": "",
+  "en": "Kamiyama-kun!!",
   "notes": ""
  },
  {
   "id": "4-136",
   "ptr": "8BAA8C",
   "jp": "来るんじゃねェ{nl}こいつはタイマンだ",
-  "en": "",
+  "en": "Stay back. This is one-on-one.",
   "notes": ""
  },
  {
   "id": "4-137",
   "ptr": "8BAAAE",
   "jp": "いいか よく見とけよ{nl}本当のケンカを見せてやる",
-  "en": "",
+  "en": "Listen up and watch close. I'll show you a real fight.",
   "notes": ""
  },
  {
   "id": "4-138",
   "ptr": "8BAADE",
   "jp": "なかせるねェ{nl}手ェぬいてやろうか？",
-  "en": "",
+  "en": "How touching. Want me to go easy on you?",
   "notes": ""
  },
  {
   "id": "4-139",
   "ptr": "8BAB02",
   "jp": "死ぬ気できやがれ‼",
-  "en": "",
+  "en": "Come at me ready to die!!",
   "notes": ""
  },
  {
   "id": "4-140",
   "ptr": "8BAB16",
   "jp": "ん？",
-  "en": "",
+  "en": "Hm?",
   "notes": ""
  },
  {
   "id": "4-141",
   "ptr": "8BAB1C",
   "jp": "{face:0800}ゲーーー鬼塚‼",
-  "en": "",
+  "en": "{face:0800}Gyaaah! Onizuka!!",
   "notes": ""
  },
  {
   "id": "4-142",
   "ptr": "8BAB30",
   "jp": "{face:0100}くッ‥‥",
-  "en": "",
+  "en": "{face:0100}Ngh...",
   "notes": ""
  },
  {
   "id": "4-143",
   "ptr": "8BAB3C",
   "jp": "フッ 上山まかせたぜ",
-  "en": "",
+  "en": "Heh. Kamiyama, I'll leave this to you.",
   "notes": ""
  },
  {
   "id": "4-144",
   "ptr": "8BAB52",
   "jp": "はい",
-  "en": "",
+  "en": "Yes, sir.",
   "notes": ""
  },
  {
   "id": "4-145",
   "ptr": "8BAB58",
   "jp": "ハハハ{nl}まかされちまったぜ",
-  "en": "",
+  "en": "Hahaha. Guess it's all on me now.",
   "notes": ""
  },
  {
   "id": "4-146",
   "ptr": "8BAB72",
   "jp": "やっと見つけたぜ",
-  "en": "",
+  "en": "Finally found you.",
   "notes": ""
  },
  {
   "id": "4-147",
   "ptr": "8BAB84",
   "jp": "どーでもいいけど{nl}何で後ろ向きなんだ‼",
-  "en": "",
+  "en": "Not that it matters, but why're you facing backwards?!",
   "notes": ""
  },
  {
   "id": "4-148",
   "ptr": "8BABAC",
   "jp": "俺は‥‥{nl}くわしい事は知らねー",
-  "en": "",
+  "en": "I... don't know the details.",
   "notes": ""
  },
  {
   "id": "4-149",
   "ptr": "8BABC8",
   "jp": "けど 誰が悪者かは{nl}わかってるつもりだぜ",
-  "en": "",
+  "en": "But I'd say I know who the bad guy is.",
   "notes": ""
  },
  {
   "id": "4-150",
   "ptr": "8BABF0",
   "jp": "ははは{nl}俺に言ってんのかい",
-  "en": "",
+  "en": "Hahaha. You talking about me?",
   "notes": ""
  },
  {
   "id": "4-151",
   "ptr": "8BAC0A",
   "jp": "俺はリチギで{nl}ゆうめいでな",
-  "en": "",
+  "en": "I'm famous for being a man who keeps his word.",
   "notes": ""
  },
  {
   "id": "4-152",
   "ptr": "8BAC26",
   "jp": "かりは{nl}ちゃんとかえすぜ",
-  "en": "",
+  "en": "I always pay back what I owe.",
   "notes": ""
  },
  {
   "id": "4-153",
   "ptr": "8BAC40",
   "jp": "鬼塚ーーッ",
-  "en": "",
+  "en": "Onizukaaa!",
   "notes": ""
  },
  {
   "id": "4-154",
   "ptr": "8BAC4C",
   "jp": "どこだーー{nl}楽翠わーー",
-  "en": "",
+  "en": "Where are ya, Rakusuiii?!",
   "notes": ""
  },
  {
   "id": "4-155",
   "ptr": "8BAC64",
   "jp": "米示‼ 勝嗣‼{nl}どうしたんだ‼",
-  "en": "",
+  "en": "Yoneji!! Katsuji!! What happened?!",
   "notes": ""
  },
  {
   "id": "4-156",
   "ptr": "8BAC84",
   "jp": "お‥‥鬼塚たちに‥‥",
-  "en": "",
+  "en": "O-Onizuka and his guys...",
   "notes": ""
  },
  {
   "id": "4-157",
   "ptr": "8BAC96",
   "jp": "前田さん‥‥{nl}俺たちは{nl}大丈夫だから‥‥",
-  "en": "",
+  "en": "Maeda-san... We're... fine...",
   "notes": ""
  },
  {
   "id": "4-158",
   "ptr": "8BACB6",
   "jp": "くそっ‥{nl}鬼塚‥‥",
-  "en": "",
+  "en": "Damn... Onizuka...",
   "notes": ""
  }
 ]

@@ -8,7 +8,7 @@
     python -X utf8 tools/batches.py apply FILE          # id<TAB>EN fixes (any batch), checked, merged
     python -X utf8 tools/batches.py lint                # every non-empty "en" in script/ (build gate)
 
-TSV in: id, speaker (portrait code or -), jp with " / " for the original line breaks.
+TSV in (untranslated entries only): id, first portrait-expression code or -, jp with " / " for the original breaks.
 TSV out: id<TAB>English (free-flowing; {nl} forces a line break, {page} a page break; control codes copied).
 """
 import json
@@ -130,7 +130,12 @@ def read_out(path):
 
 
 def check(name, path=None, require_all=True):
-    es = {e["id"]: e for e in batch(name)} if name else {i: e for i, (_, e) in entries().items()}
+    by_id = {i: e for i, (_, e) in entries().items()}
+    if name:  # the ids handed out in work/tl/<name>.tsv
+        tsv = (TL / f"{name}.tsv").read_text(encoding="utf-8").splitlines()
+        es = {line.split("\t")[0]: by_id[line.split("\t")[0]] for line in tsv if line.strip()}
+    else:
+        es = by_id
     out = read_out(path or TL / f"{name}.out.tsv")
     errs = []
     if require_all:
@@ -156,7 +161,7 @@ def merge(out):
 
 def split(name):
     TL.mkdir(parents=True, exist_ok=True)
-    es = batch(name)
+    es = [e for e in batch(name) if not e["en"]]
     lines = [f"{e['id']}\t{speaker(e['jp'])}\t{e['jp'].replace('{nl}', ' / ')}" for e in es]
     (TL / f"{name}.tsv").write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
     text = " ".join(e["jp"] for e in es)
