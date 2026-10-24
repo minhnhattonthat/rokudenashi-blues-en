@@ -269,14 +269,14 @@
   "id": "2-038",
   "ptr": "8B8EEE",
   "jp": "ほっとけ！{nl}{nl}{nl}それより、この先に{nl}イキがった{nl}米商の奴がいるけど{nl}あんまり相手に{nl}しねーほうがいいぞ",
-  "en": "Mind your own business!{page}More importantly, there's some cocky Yonekura Commercial punk up ahead. Better not get mixed up with him.",
+  "en": "Mind your own business!{page}More importantly, there's some cocky Yonekura Commercial punk up ahead.{page}Better not get mixed up with him.",
   "notes": ""
  },
  {
   "id": "2-039",
   "ptr": "8B8F52",
   "jp": "何見てんだよ！{nl}中学生だからって{nl}ナメてると{nl}イタいメみるぜ！{nl}なぁ、松村！",
-  "en": "What're you looking at?! Think we're pushovers 'cause we're in middle school? You'll get hurt! Right, Matsumura?!",
+  "en": "What're you looking at?! Think we're pushovers 'cause we're in middle school?!{page}You'll get hurt! Right, Matsumura?!",
   "notes": ""
  },
  {
@@ -360,7 +360,7 @@
   "id": "2-051",
   "ptr": "8B91C4",
   "jp": "米商の島袋って奴によ{nl}どうやら前田さんと{nl}間違われたらしいんだ{nl}だから{nl}カタキとるのが{nl}スジってもんだろ{nl}それに‥‥{nl}じ‥じつは兵ちゃん‥{nl}もう長くないんだ",
-  "en": "Some guy named Shimabukuro from Yonekura Commercial... apparently mistook him for you, Maeda-san. So it's only right you get payback for him. Besides... a-actually, Hei-chan... doesn't have long left.",
+  "en": "Some Shimabukuro guy from Yonekura Commercial... mistook him for you, Maeda-san.{page}So it's only right you get payback for him.{page}Besides... a-actually, Hei-chan... doesn't have long left.",
   "notes": ""
  },
  {
@@ -388,7 +388,7 @@
   "id": "2-055",
   "ptr": "8B9332",
   "jp": "こ‥こんな俺で{nl}よかったら‥‥‥{nl}カタキをとってやるよ{nl}し‥島袋のヤロォは{nl}ぶ‥ぶっ殺す‼",
-  "en": "I-If a guy like me'll do... I'll get payback for him. Th-That bastard Shimabukuro... I-I'm gonna kill him!!",
+  "en": "I-If a guy like me'll do... I'll get payback for him.{page}Th-That bastard Shimabukuro... I-I'm gonna kill him!!",
   "notes": ""
  },
  {
@@ -549,7 +549,7 @@
   "id": "2-078",
   "ptr": "8B97C4",
   "jp": "しかし、前田が{nl}こんな手にかかるとは{nl}思わなかったな{nl}3カ月の命だってよ！{nl}ハハハ{nl}わらっちまうぜバカが！",
-  "en": "Man, never thought Maeda'd fall for a trick like this. \"Three months to live\"! Hahaha! What an idiot, cracks me up!",
+  "en": "Man, never thought Maeda'd fall for a trick like this.{page}\"Three months to live\"! Hahaha! What an idiot, cracks me up!",
   "notes": ""
  },
  {

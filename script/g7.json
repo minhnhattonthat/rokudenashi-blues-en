@@ -45,7 +45,7 @@
   "id": "7-006",
   "ptr": "8BC80C",
   "jp": "須原は ぐうぜん出会った{nl}島袋に、太尊への{nl}伝言を頼んだ{nl}伝言は、四天王最後の一人{nl}池袋正道館の葛西が{nl}四天王制覇をねらっていて{nl}薬師寺と前田がねらわれている{nl}ということだった",
-  "en": "Suhara ran into Shimabukuro by chance and asked him to pass a message to Taison. The message: Kasai of Ikebukuro Seidokan, the last of the Four Kings, was out to conquer the Four Kings, and he was after Yakushiji and Maeda.",
+  "en": "Suhara ran into Shimabukuro by chance and asked him to pass a message to Taison.{page}The message: Kasai of Ikebukuro Seidokan, last of the Four Kings, was out to rule them all...{page}and he was after Yakushiji and Maeda.",
   "notes": ""
  },
  {
@@ -94,7 +94,7 @@
   "id": "7-013",
   "ptr": "8BC994",
   "jp": "{face:0100}くっそーっ！{nl}ゼッタイ{nl}行かせねーぞォ！{nl}いつ千秋ちゃんが{nl}前田のドクガに{nl}かかるか わかんねー{nl}おのれ前田{nl}水族館をダシに{nl}しやがって‥‥",
-  "en": "{face:0100}Dammit! No way I'm letting 'em go! Who knows when Maeda'll get his claws into Chiaki-chan! Damn you, Maeda, using the aquarium as bait...",
+  "en": "{face:0100}Dammit! No way I'm letting 'em go! Who knows when Maeda'll get his claws into Chiaki-chan!{page}Damn you, Maeda, using the aquarium as bait...",
   "notes": ""
  },
  {
@@ -913,7 +913,7 @@
   "id": "7-130",
   "ptr": "8BDB44",
   "jp": "あるよ バカ{nl}つまんねー事{nl}しやがって{nl}けど そんな事言っても{nl}はじまんねー{nl}あいてが悪すぎた",
-  "en": "Yeah, I do, you idiot. Pulling a dumb stunt like that. But griping about it won't fix anything. You picked the wrong guys.",
+  "en": "Yeah, I do, you idiot. Pulling a dumb stunt like that.{page}But griping about it won't fix anything. You picked the wrong guys.",
   "notes": ""
  },
  {
@@ -1368,7 +1368,7 @@
   "id": "7-195",
   "ptr": "8BE75C",
   "jp": "俺は あいつらとは{nl}ちがう{nl}{nl}たのむ 前田{nl}葛西を{nl}とめたい{nl}葛西は正道館に{nl}入りたてのころ{nl}{nl}頭ハッてた奴に{nl}いどんだ{nl}{nl}けど そいつは{nl}バットで葛西を‥‥{nl}{nl}はじめの一撃で{nl}勝負はついた{nl}アバラ3本だ{nl}葛西のまわりから{nl}仲間がきえた{nl}{nl}葛西は もう一度{nl}そいつに いどんで勝った{nl}そしたら仲間がもどった{nl}葛西が名を上げるごとに{nl}仲間はふえ‥‥{nl}{nl}そして奴は{nl}とまれなくなった{nl}{nl}まるで回遊魚のように‥",
-  "en": "I'm not like them.{page}Please, Maeda. I wanna stop Kasai. When Kasai first got into Seidokan,{page}he challenged the guy who was top dog.{page}But that guy took a bat to Kasai...{page}One hit and it was over. Three broken ribs. Kasai's friends all disappeared.{page}Kasai challenged him again and won. Then his friends came back. Every time Kasai made a name for himself, he got more friends...{page}and then he couldn't stop.{page}Like a fish that has to keep swimming or die...",
+  "en": "I'm not like them.{page}Please, Maeda. I wanna stop Kasai. When Kasai first got into Seidokan,{page}he challenged the guy who was top dog.{page}But that guy took a bat to Kasai...{page}One hit and it was over. Three broken ribs. Kasai's friends all disappeared.{page}Kasai challenged him again and won. Then his friends came back.{page}Every time Kasai made a name for himself, he got more friends...{page}and then he couldn't stop.{page}Like a fish that has to keep swimming or die...",
   "notes": ""
  },
  {
@@ -1515,7 +1515,7 @@
   "id": "7-216",
   "ptr": "8BEC3A",
   "jp": "本当は誰かが{nl}とめてくれるのを{nl}待ってんじゃねーのか⁉{nl}ゾロゾロと仲間を連れて{nl}およぎつづけなきゃ{nl}ならない‥‥{nl}とまると{nl}死んじまう‥‥{nl}まるで‥‥",
-  "en": "Truth is, ain't you waiting for somebody to stop you?! Dragging a crowd of buddies along, you gotta keep swimming... Stop, and you die... Just like...",
+  "en": "Truth is, ain't you waiting for somebody to stop you?!{page}Dragging a crowd of buddies along, you gotta keep swimming... Stop, and you die... Just like...",
   "notes": ""
  },
  {

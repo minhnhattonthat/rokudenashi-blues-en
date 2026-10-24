@@ -10,7 +10,7 @@
   "id": "1-001",
   "ptr": "8A9C3E",
   "jp": "入学早々、応援団の連中から{nl}一目をおかれ、ついて{nl}まわられる様になった{nl}前田太尊は",
-  "en": "Right after enrolling, Maeda Taison won the respect of the cheer squad, who started following him everywhere.",
+  "en": "Right after enrolling, Maeda Taison won over the cheer squad, who followed him everywhere.",
   "notes": ""
  },
  {
@@ -31,7 +31,7 @@
   "id": "1-004",
   "ptr": "8A9CE4",
   "jp": "しかも、ぐうぜん空き地で{nl}ケンカした相手が停学中の{nl}ボクシング部のキャプテン{nl}畑中だった",
-  "en": "On top of that, the guy he happened to fight in the vacant lot turned out to be Hatanaka, the boxing club's suspended captain.",
+  "en": "Worse, the guy he fought in the vacant lot was Hatanaka, the boxing club's suspended captain.",
   "notes": ""
  },
  {
@@ -108,7 +108,7 @@
   "id": "1-015",
   "ptr": "8A9FCA",
   "jp": "前田に伝えな！{nl}一人でボクシング部の{nl}部室へ来い！{nl}ほかの誰かにチクッたら{nl}女の事はせきにん{nl}もてねえってな‥",
-  "en": "Tell Maeda! Come alone to the boxing club room! If he squeals to anybody, we can't promise what happens to the girl...",
+  "en": "Tell Maeda! Come alone to the boxing club room!{page}If he squeals to anybody, we can't promise what happens to the girl...",
   "notes": ""
  },
  {
@@ -171,7 +171,7 @@
   "id": "1-024",
   "ptr": "8AA112",
   "jp": "すまねえっ、前田さん{nl}千秋ちゃんが浜田と大橋に{nl}さらわれて{nl}前田さんに{nl}一人で部室に{nl}来るようにって‥‥",
-  "en": "Sorry, Maeda-san! Hamada and Ohashi grabbed Chiaki-chan, and they said you have to come to the club room alone...",
+  "en": "Sorry, Maeda-san! Hamada and Ohashi grabbed Chiaki-chan!{page}They said you have to come to the club room alone...",
   "notes": ""
  },
  {
@@ -276,7 +276,7 @@
   "id": "1-039",
   "ptr": "8AA3D0",
   "jp": "そうしますか{nl}{nl}{nl}俺たちだって{nl}マジメに やってりゃ{nl}{nl}畑中さん みてえに{nl}なれたトコ{nl}なんだからな{nl}そういうトコ{nl}見せてやろうか",
-  "en": "Guess we will.{page}If we'd stuck with it, we could've been just like Hatanaka-san, y'know. How about we show you that side of us?",
+  "en": "Guess we will.{page}If we'd stuck with it, we could've been just like Hatanaka-san, y'know.{page}How about we show you that side of us?",
   "notes": ""
  },
  {
@@ -325,7 +325,7 @@
   "id": "1-046",
   "ptr": "8AA52A",
   "jp": "くっ‥くそ‥‥{nl}このままですむと{nl}思うなよ 前田‥{nl}畑中さんが{nl}もどってきたら{nl}{nl}輪島たち もろとも{nl}ブっ殺してくれるぜ",
-  "en": "Ngh... D-Damn it... Don't think this is over, Maeda... Once Hatanaka-san gets back, he'll kill you along with Wajima and his crew!",
+  "en": "Ngh... D-Damn it... Don't think this is over, Maeda...{page}Once Hatanaka-san gets back, he'll kill you along with Wajima and his crew!",
   "notes": ""
  },
  {
@@ -395,7 +395,7 @@
   "id": "1-056",
   "ptr": "8AA708",
   "jp": "停学とけるの{nl}待ってたんだぜ{nl}畑中さん{nl}一年に恐ろしく{nl}アブネエ野郎が{nl}入学してきやがって{nl}どうやら輪島たちが{nl}そいつを みかたに{nl}つけたらしいんだ{nl}でも畑中さんさえ{nl}もどってくりゃ{nl}{nl}恐いもんなんか{nl}ありゃしねえ{nl}{nl}一気に奴らに勝負{nl}かけようぜ",
-  "en": "We've been waiting for your suspension to end, Hatanaka-san. Some seriously dangerous guy enrolled as a first-year, and it looks like Wajima and his crew got him on their side. But as long as you're back, we got nothing to be scared of!{page}Let's go after 'em all at once!",
+  "en": "We've been waiting for your suspension to end, Hatanaka-san.{page}Some dangerous first-year just enrolled, and looks like Wajima and his crew got him on their side.{page}But as long as you're back, we got nothing to be scared of!{page}Let's go after 'em all at once!",
   "notes": ""
  },
  {
@@ -437,7 +437,7 @@
   "id": "1-062",
   "ptr": "8AA8B2",
   "jp": "お‥俺たちゃ何も{nl}かわっちゃいねえぜ{nl}{nl}昔のまま‥ 強えあんたに{nl}あこがれてる{nl}ただのボンクラだぜ{nl}あんたが カンちがい{nl}してんじゃねーのか{nl}畑中さん",
-  "en": "W-We haven't changed one bit.{page}We're the same as always... just a bunch of good-for-nothings who look up to you 'cause you're strong. Aren't you the one who's got it wrong, Hatanaka-san?",
+  "en": "W-We haven't changed one bit.{page}We're the same as always... just a bunch of good-for-nothings who look up to you 'cause you're strong.{page}Aren't you the one who's got it wrong, Hatanaka-san?",
   "notes": ""
  },
  {
@@ -451,7 +451,7 @@
   "id": "1-064",
   "ptr": "8AA96A",
   "jp": "お前、さいきん{nl}応援団の連中と{nl}仲が いいみたいだが{nl}くれぐれも{nl}ボクシング部の連中と{nl}モメぬようにな！",
-  "en": "You seem to be getting chummy with the cheer squad lately, but whatever you do, don't go picking fights with the boxing club guys!",
+  "en": "You seem to be getting chummy with the cheer squad lately.{page}But whatever you do, don't go picking fights with the boxing club guys!",
   "notes": ""
  },
  {
@@ -549,7 +549,7 @@
   "id": "1-078",
   "ptr": "8AAC14",
   "jp": "前田、畑中はもう一度{nl}もんだいをおこせば{nl}退学になる{nl}たとえ ボクシング部と{nl}応援団とが やり合った{nl}だけでも‥‥{nl}それが全て{nl}畑中にふりかかって{nl}くるんだ",
-  "en": "Maeda, if Hatanaka causes trouble one more time, he'll be expelled. Even if the boxing club and the cheer squad just clash... all of it will come down on Hatanaka.",
+  "en": "Maeda, if Hatanaka causes trouble one more time, he'll be expelled.{page}Even if the boxing club and the cheer squad just clash... all of it will come down on Hatanaka.",
   "notes": ""
  },
  {
@@ -591,7 +591,7 @@
   "id": "1-084",
   "ptr": "8AADF0",
   "jp": "{face:0100}なにー！{nl}畑中が帰って来て{nl}女たちが さわいでる！{nl}ムムッ、ついに{nl}この中田小兵二様の{nl}そんざいを{nl}おびやかす奴が{nl}出てきたか！{nl}{nl}かるく オレ様が{nl}シメなきゃ{nl}ならねえな！",
-  "en": "{face:0100}Whaaat! Hatanaka's back and the girls are all over him! Hmm! So someone finally dares to steal the spotlight from Nakata Koheiji-sama!{page}Guess I'll have to put him in his place, nice and easy!",
+  "en": "{face:0100}Whaaat! Hatanaka's back and the girls are all over him!{page}Hmm! So someone finally dares to steal the spotlight from Nakata Koheiji-sama!{page}Guess I'll have to put him in his place, nice and easy!",
   "notes": ""
  },
  {
@@ -864,7 +864,7 @@
   "id": "1-123",
   "ptr": "8AB598",
   "jp": "俺も さっき{nl}聞いたんだが‥‥{nl}{nl}ボクシング部が{nl}次にモメごとを{nl}やらかしたら{nl}畑中の大学行きは{nl}ダメになるらしい{nl}{nl}前田さんは その事を{nl}知ってて こういう{nl}カタチをとったんだよ{nl}俺達が いくら{nl}イキがってみても{nl}かなわねえ{nl}前田さんにだけはな{nl}{nl}{nl}そうだろ⁉{nl}浜田‥‥‥",
-  "en": "I only just heard it myself...{page}If the boxing club stirs up trouble again, Hatanaka's college deal is off.{page}Maeda-san knew that, so he set things up this way. No matter how tough we act, we can't measure up... not to Maeda-san, anyway.{page}Ain't that right?! Hamada......",
+  "en": "I only just heard it myself...{page}If the boxing club stirs up trouble again, Hatanaka's college deal is off.{page}Maeda-san knew that, so he set things up this way.{page}No matter how tough we act, we can't measure up... not to Maeda-san, anyway.{page}Ain't that right?! Hamada......",
   "notes": ""
  },
  {
@@ -1235,7 +1235,7 @@
   "id": "1-176",
   "ptr": "8ABE88",
   "jp": "はい、島袋です{nl}君のなやみを聞いて{nl}あげたいのだが{nl}今は外出中です{nl}なやみのある方は{nl}どーぞ",
-  "en": "Hello, this is Shimabukuro. I'd love to hear your troubles, but I'm out right now. If you have troubles, go right ahead.",
+  "en": "Hello, this is Shimabukuro. I'd love to hear your troubles, but I'm out right now.{page}If you have troubles, go right ahead.",
   "notes": ""
  },
  {

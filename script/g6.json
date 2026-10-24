@@ -10,7 +10,7 @@
   "id": "6-001",
   "ptr": "8AD8F8",
   "jp": "四天王の一人で かつて{nl}千秋のボーイフレンドだった{nl}薬師寺が太尊の目の前で{nl}千秋をさらった！{nl}太尊は千秋を連れもどしに{nl}そして薬師寺を倒すために{nl}浅草へと向かった",
-  "en": "and Yakushiji, one of the Four Kings and once Chiaki's boyfriend, had snatched Chiaki away right before Taison's eyes! Taison headed for Asakusa to bring Chiaki back... and to take Yakushiji down.",
+  "en": "and Yakushiji, one of the Four Kings and Chiaki's ex, had snatched her away before Taison's eyes!{page}Taison headed for Asakusa to bring Chiaki back... and to take Yakushiji down.",
   "notes": ""
  },
  {
@@ -101,7 +101,7 @@
   "id": "6-014",
   "ptr": "8ADB6A",
   "jp": "とゆー事は仲間をやりゃ{nl}薬師寺もだまって{nl}ねーってわけだな！{nl}鬼塚みてーに{nl}つめてー奴なら{nl}どうしようかと思ったぜ",
-  "en": "So that means if I take out his pals, Yakushiji won't just sit there! I was wondering what I'd do if he was a cold bastard like Onizuka.",
+  "en": "So that means if I take out his pals, Yakushiji won't just sit there!{page}I was wondering what I'd do if he was a cold bastard like Onizuka.",
   "notes": ""
  },
  {
@@ -115,7 +115,7 @@
   "id": "6-016",
   "ptr": "8ADBFC",
   "jp": "よし、マトは笹崎高の{nl}ヤンキー全部に{nl}広げるとすっか！{nl}おまえも{nl}悪やくになるくらい{nl}ハラきめられねーなら{nl}薬師寺には勝てねーな",
-  "en": "Right, I'll widen the target to every punk at Sasazaki High! And if you can't even work up the guts to play the bad guy, you'll never beat Yakushiji.",
+  "en": "Right, I'll widen the target to every punk at Sasazaki High!{page}And if you can't even work up the guts to play the bad guy, you'll never beat Yakushiji.",
   "notes": ""
  },
  {
@@ -185,7 +185,7 @@
   "id": "6-026",
   "ptr": "8ADDCE",
   "jp": "{face:0100}俺は千秋ちゃんが{nl}さらわれたって広成から{nl}聞いて来たんだよ{nl}勝嗣たちも{nl}こっちに来るらしいがな！",
-  "en": "{face:0100}Hironari told me Chiaki-chan got kidnapped, so I came! Sounds like Katsuji and the guys are heading over too!",
+  "en": "{face:0100}Hironari told me Chiaki-chan got kidnapped, so I came!{page}Sounds like Katsuji and the guys are heading over too!",
   "notes": ""
  },
  {
@@ -199,14 +199,14 @@
   "id": "6-028",
   "ptr": "8ADE5C",
   "jp": "お前、この辺じゃ{nl}見ねーカオだな！{nl}ひょっとしてお前が{nl}亀岡さんが言ってた{nl}吉祥寺の前田か！",
-  "en": "Never seen your face around here! Don't tell me you're that Maeda from Kichijoji Kameoka-san was talking about!",
+  "en": "Never seen your face around here!{page}Don't tell me you're that Maeda from Kichijoji Kameoka-san was talking about!",
   "notes": ""
  },
  {
   "id": "6-029",
   "ptr": "8ADEAC",
   "jp": "前田？{nl}あーっ、ひょっとして{nl}四天王の一人の前田！{nl}今、浅草に来てるのか！{nl}どんな奴か{nl}見てみたいもんだぜ！",
-  "en": "Maeda? Ohh, you mean Maeda, one of the Four Kings?! He's in Asakusa right now?! Man, I'd love to see what kind of guy he is!",
+  "en": "Maeda? Ohh, you mean Maeda, one of the Four Kings?! He's in Asakusa right now?!{page}Man, I'd love to see what kind of guy he is!",
   "notes": ""
  },
  {
@@ -227,7 +227,7 @@
   "id": "6-032",
   "ptr": "8ADF54",
   "jp": "いやーっ、じつはな{nl}薬師寺さんが前田の女を{nl}連れさって来たらしいんだ{nl}なんでも、むかし薬師寺さんが{nl}吉祥寺にすんでたころから{nl}その女を好きだったらしい{nl}だけど吉祥寺に行ってみたら{nl}前田の女になってたんで{nl}{nl}薬師寺さんはごういんに{nl}連れて来たって話だ！",
-  "en": "Well, see, word is Yakushiji-san brought Maeda's girl back here. Supposedly Yakushiji-san liked that girl way back when he lived in Kichijoji. But when he went to Kichijoji, she'd become Maeda's girl...{page}so Yakushiji-san just dragged her back here by force!",
+  "en": "Well, see, word is Yakushiji-san brought Maeda's girl back here.{page}Supposedly Yakushiji-san liked that girl way back when he lived in Kichijoji.{page}But when he went to Kichijoji, she'd become Maeda's girl...{page}so Yakushiji-san just dragged her back here by force!",
   "notes": ""
  },
  {
@@ -241,7 +241,7 @@
   "id": "6-034",
   "ptr": "8AE044",
   "jp": "くっそーっ！{nl}いったい千秋ちゃんは{nl}どこへ⁉{nl}前田ぁーっ！{nl}お前はまだ{nl}見つけてねーのか！{nl}このやくたたずめ‼",
-  "en": "Dammit! Where on earth is Chiaki-chan?! Maedaaa! You still haven't found her?! You useless bum!!",
+  "en": "Dammit! Where on earth is Chiaki-chan?!{page}Maedaaa! You still haven't found her?! You useless bum!!",
   "notes": ""
  },
  {
@@ -311,7 +311,7 @@
   "id": "6-044",
   "ptr": "8AE204",
   "jp": "はあっ はあっ はあっ‥{nl}‥‥くそっ{nl}あの鶴田ってヤロォ{nl}なんてタフなんだ{nl}勝嗣と米示が{nl}このザマだ‥‥{nl}けど、奴もフラフラ{nl}しながら どっかに{nl}行っちまったけどな",
-  "en": "Huff, huff, huff... ...Dammit. That Tsuruta bastard is tough as hell. Look what he did to Katsuji and Yoneji... But he went staggering off somewhere too.",
+  "en": "Huff, huff, huff... ...Dammit. That Tsuruta bastard is tough as hell.{page}Look what he did to Katsuji and Yoneji... But he went staggering off somewhere too.",
   "notes": ""
  },
  {
@@ -661,7 +661,7 @@
   "id": "6-094",
   "ptr": "8AEA38",
   "jp": "逃げられねーよ{nl}バカ{nl}吉祥寺ごときが{nl}浅草で{nl}のさばんじゃねー{nl}クソが",
-  "en": "You ain't getting away, idiot. Some Kichijoji nobody doesn't get to strut around Asakusa, you piece of crap.",
+  "en": "You ain't getting away, idiot.{page}Some Kichijoji nobody doesn't get to strut around Asakusa, you piece of crap.",
   "notes": ""
  },
  {
@@ -808,7 +808,7 @@
   "id": "6-115",
   "ptr": "8AECB8",
   "jp": "さいきん{nl}からんでこねーな{nl}と言っても{nl}俺は今、いそがしくて{nl}相手できねーけどな",
-  "en": "You haven't come picking fights with me lately. Not that I've got time to deal with you right now, anyway.",
+  "en": "You haven't come picking fights with me lately.{page}Not that I've got time to deal with you right now, anyway.",
   "notes": ""
  },
  {
@@ -976,7 +976,7 @@
   "id": "6-139",
   "ptr": "8AF0D0",
   "jp": "知るか‥‥{nl}{nl}{nl}こ‥これがケジメだと{nl}思うんなら{nl}そう思っとけよ{nl}けど本当の浅草の{nl}じつりょくは{nl}こんなもんじゃねーよ{nl}なぁ鶴",
-  "en": "Like I care...{page}I-If you think this settles things, then go ahead and think that. But this ain't what Asakusa can really do. Right, Tsuru?",
+  "en": "Like I care...{page}I-If you think this settles things, then go ahead and think that.{page}But this ain't what Asakusa can really do. Right, Tsuru?",
   "notes": ""
  },
  {
