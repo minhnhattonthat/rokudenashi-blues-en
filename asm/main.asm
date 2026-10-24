@@ -28,7 +28,7 @@ org $88A1A4             ; was: JSL A545 (load glyph), A5AB + A652 (colourise), A
 ; page 13 / 11), so the build can't wrap. The main text loop reads each word via JSL $88A168 at $88:A0CE; we
 ; return FFFE (newline: the game's own handler consumes the code and pages when the box is full) instead of
 ; a space whose next word won't fit, and handle FFE0 = {page}: newline without consuming until the last row.
-; Limit in px = cells * 16 - 12 (cells = $0F98 & $1F, or $0F99 & $0F on the last row $0F99 & $F0).
+; Limit in px = cells * 16 - 16 (cells = $0F98 & $1F, or $0F99 & $0F on the last row $0F99 & $F0).
 ; ---------------------------------------------------------------------------------------------------------------
 !SUM   = $FF0C
 !SPACE = $0300
@@ -117,7 +117,7 @@ wrap_read:
     asl
     asl
     sec
-    sbc #$000C
+    sbc #$0010          ; = build.py MARGIN: the box shows one cell less than $0F98
     cmp !SUM
     bcs .space          ; limit >= x + word: fits
 .newline:

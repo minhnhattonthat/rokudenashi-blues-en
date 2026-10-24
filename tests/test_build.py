@@ -13,7 +13,7 @@ def test_layout_respects_box_widths():
         pages = build.layout("{face:0100}" + " ".join(["Taison"] * 40) + "{page}Next page", build.BOXES[name])
         for page in pages:
             for i, line in enumerate(page):
-                limit = (last if i == 2 else normal) * 16 - 12
+                limit = (last if i == 2 else normal) * 16 - build.MARGIN
                 assert build.px(line.replace("{face:0100}", "")) <= limit, (name, line)
         assert pages[0][0].startswith("{face:0100}Taison")
         assert pages[-1] == ["Next page"]  # {page} finished the page before it

@@ -24,7 +24,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 
 ## Engine (asm/main.asm)
 - English = codes $0300+ascii-$20 through a VWF (2-column strip at VRAM $1E12); JP codes use the original path.
-- Runtime word wrap per box ($0F98/$0F99 cells, limit cells*16-12 px), {page} = FFE0. Typing 2 frames/glyph.
+- Runtime word wrap per box ($0F98/$0F99 cells, limit cells*16-16 px), {page} = FFE0. Typing 2 frames/glyph.
 - Command labels pre-rendered into font glyphs 0x240-0x273. Title menu = sprite block 0x809F5 + metasprite 0x80F3C.
   Options labels = BG3 font/tilemap relocated to bank $B0:C000+.
 

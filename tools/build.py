@@ -26,9 +26,11 @@ ROOT = text.ROOT
 BUILD = ROOT / "build"
 ASAR = ROOT / "tools" / "asar" / "asar.exe"
 SIZE = 0x200000
-# dialogue boxes as ($0F98 cells per line, $0F99 cells on a page's last line); px limit = cells * 16 - 12
+# dialogue boxes as ($0F98 cells per line, $0F99 cells on a page's last line); px limit = cells * 16 - MARGIN
+# (the box shows one cell less than $0F98 says: a portrait-box line clips at x=240, playtest 2026-10-24)
 BOXES = {"narration": (15, 13), "portrait": (13, 11)}
-MIN_LINE_PX = 11 * 16 - 12
+MARGIN = 16  # must match the sbc in asm wrap_read
+MIN_LINE_PX = 11 * 16 - MARGIN
 # where packed strings may go: the original areas up to their bank ends, then banks $B1-$BF
 REGIONS = [(0x51C1A, 0x58000), (0x587CE, 0x60000), (0x188000, SIZE)]
 GFX_REGION = (0x184000, 0x188000)  # $B0:C000-$B0:FFFF: relocated graphics (asm code + font use $B0:8000-)
@@ -68,7 +70,7 @@ def px(word):
 def layout(s, box=BOXES["portrait"]):
     """Emulate the runtime wrap (asm wrap_read) -> list of pages, each a list of line strings."""
     pages, lines, cur, w = [], [], "", 0
-    normal, last = (c * 16 - 12 for c in box)
+    normal, last = (c * 16 - MARGIN for c in box)
 
     def newline():
         nonlocal cur, w, lines
@@ -145,7 +147,8 @@ def menu_label(rom, k, en, addr):
     """Pre-render a command label into 4 spare 16x16 font glyphs and point its fixed 4-glyph field at them."""
     art = font.parse()
     cols = [[0] * 16 for _ in range(MENU_PX)]
-    x = 0
+    x = 8  # the field starts flush with the portrait frame; dialogue text starts 8 px in
+    assert x + px(en) <= MENU_PX, en
     for ch in en:
         for r, row in enumerate(art[ch]):
             for c, p in enumerate(row):
