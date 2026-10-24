@@ -31,8 +31,8 @@ Releases also need the [translate-retro-game](https://github.com/minhnhattonthat
 Code plugin, or set `SKILL` to its directory).
 
 ```sh
-git clone https://github.com/minhnhattonthat/rokudenashi-blues
-cd rokudenashi-blues
+git clone https://github.com/minhnhattonthat/rokudenashi-blues-en
+cd rokudenashi-blues-en
 # copy your dump to: rom/orig.sfc
 #   (1,572,864 bytes, SHA-1 7f6dc245de117d29b573d986b0b0c4048679d27d; the build refuses any other dump, see rom.sha1)
 python -X utf8 tools/build.py                          # -> build/rb_en.sfc

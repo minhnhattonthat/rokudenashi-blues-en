@@ -283,7 +283,7 @@
   "id": "7-040",
   "ptr": "8BCE14",
   "jp": "前田に何の用があんのか{nl}知らねーけど{nl}{nl}ここはおまえらの{nl}来るよーな{nl}トコじゃねー{nl}ケガしねーうちに{nl}帰りな！",
-  "en": "Dunno what business you got with Maeda,{page}but this ain't the kinda place for you. Go home before you get hurt!",
+  "en": "Dunno what business you got with Maeda.{page}But this ain't the kinda place for you. Go home before you get hurt!",
   "notes": ""
  },
  {
@@ -1067,7 +1067,7 @@
   "id": "7-152",
   "ptr": "8BDF76",
   "jp": "おまえは‥‥{nl}葛西を倒して{nl}{nl}ナンバーワンに{nl}なりてーのか",
-  "en": "You... wanna beat Kasai{page}and be number one, is that it?",
+  "en": "You... wanna beat Kasai...{page}...and be number one? Is that it?",
   "notes": ""
  },
  {
@@ -1298,7 +1298,7 @@
   "id": "7-185",
   "ptr": "8BE4D4",
   "jp": "{face:0200}おまえらは{nl}おまえらのためだろうが{nl}{nl}あとは俺一人の{nl}もんだいだ{nl}{nl}おまえら{nl}俺がやられると{nl}思ってんだろ{nl}{face:0300}ビビってんじゃ{nl}ねーーーっ！{nl}{nl}売られたケンカは{nl}買っちまえっ！",
-  "en": "{face:0200}You did it for your own sake.{page}The rest is my problem and nobody else's.{page}You guys think I'm gonna lose, huh? {face:0300}Quit chickening out!{page}If somebody picks a fight, take it!",
+  "en": "{face:0200}You did it for your own sake.{page}The rest is my problem and nobody else's.{page}You guys think I'm gonna lose, huh?{face:0300} Quit chickening out!{page}If somebody picks a fight, take it!",
   "notes": ""
  },
  {
@@ -1368,7 +1368,7 @@
   "id": "7-195",
   "ptr": "8BE75C",
   "jp": "俺は あいつらとは{nl}ちがう{nl}{nl}たのむ 前田{nl}葛西を{nl}とめたい{nl}葛西は正道館に{nl}入りたてのころ{nl}{nl}頭ハッてた奴に{nl}いどんだ{nl}{nl}けど そいつは{nl}バットで葛西を‥‥{nl}{nl}はじめの一撃で{nl}勝負はついた{nl}アバラ3本だ{nl}葛西のまわりから{nl}仲間がきえた{nl}{nl}葛西は もう一度{nl}そいつに いどんで勝った{nl}そしたら仲間がもどった{nl}葛西が名を上げるごとに{nl}仲間はふえ‥‥{nl}{nl}そして奴は{nl}とまれなくなった{nl}{nl}まるで回遊魚のように‥",
-  "en": "I'm not like them.{page}Please, Maeda. I wanna stop Kasai. When Kasai first got into Seidokan,{page}he challenged the guy who was top dog.{page}But that guy took a bat to Kasai...{page}One hit and it was over. Three broken ribs. Kasai's friends all disappeared.{page}Kasai challenged him again and won. Then his friends came back.{page}Every time Kasai made a name for himself, he got more friends...{page}and then he couldn't stop.{page}Like a fish that has to keep swimming or die...",
+  "en": "I'm not like them.{page}Please, Maeda. I wanna stop Kasai.{page}When Kasai first got into Seidokan, he challenged the guy who was top dog.{page}But that guy took a bat to Kasai...{page}One hit and it was over. Three broken ribs. Kasai's friends all disappeared.{page}Kasai challenged him again and won. Then his friends came back.{page}Every time Kasai made a name for himself, he got more friends...{page}and then he couldn't stop.{page}Like a fish that has to keep swimming or die...",
   "notes": ""
  },
  {

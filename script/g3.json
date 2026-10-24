@@ -31,7 +31,7 @@
   "id": "3-004",
   "ptr": "8AC5CE",
   "jp": "なぁ あんたが{nl}中田小兵二いう人か？{nl}うちは前田茜いうもんや{nl}悪いけど{nl}勝負したってんか",
-  "en": "Hey, are you the guy they call Nakata Koheiji? I'm Maeda Akane. Sorry, but I want ya to fight me.",
+  "en": "Hey, are you the guy they call Nakata Koheiji?{page}I'm Maeda Akane. Sorry, but I want ya to fight me.",
   "notes": ""
  },
  {
@@ -59,7 +59,7 @@
   "id": "3-008",
   "ptr": "8AC6B2",
   "jp": "うちは こうして{nl}タイマンはって、{nl}{nl}一生ついていける男を{nl}さがしてんねん{nl}{nl}どや、うちに勝てたら{nl}つき合うたってもええで",
-  "en": "I go around fighting one-on-one like this,{page}looking for a man I can follow for the rest of my life.{page}So how about it? Beat me, and I'll go out with ya.",
+  "en": "I go around fighting one-on-one like this.{page}I'm looking for a man I can follow for the rest of my life.{page}So how about it? Beat me, and I'll go out with ya.",
   "notes": ""
  },
  {

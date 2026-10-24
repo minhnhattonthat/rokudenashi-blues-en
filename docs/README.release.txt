@@ -22,7 +22,7 @@ WHAT'S TRANSLATED
 - All story dialogue and narration (variable-width font, word-wrapped by the game at runtime)
 - Title menu, options screen, command labels, intro shouts, staff credits
 - Graphics: boot copyright screen, title logo (subtitle: "Showdown! Tokyo's Four Kings"), fight banners,
-  RAGE gauge, ending logo
+  RAGE gauge, ending logo, story sound effects
 
 Names follow the manga in Japanese order (Maeda Taison) with honorifics kept (Maeda-kun, Chiaki-chan).
 

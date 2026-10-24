@@ -6,7 +6,9 @@ Script `en` text is free-flowing: the game wraps it at runtime to whatever box i
 emulates it). `{nl}` forces a line break, `{page}` a page break. Empty `en` keeps the Japanese (or a marker).
 """
 import argparse
+import itertools
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -107,6 +109,52 @@ def layout(s, box=BOXES["portrait"]):
     return pages
 
 
+def name_split(a, b):
+    """Line a ends in a capitalised word with no punctuation and line b starts capitalised: a name broken."""
+    return bool(re.fullmatch(r"\W*[A-Z][a-z]+", a.split(" ")[-1])) and b[:1].isupper()
+
+
+def balance(s, box=BOXES["portrait"]):
+    """Greedy runtime wrap leaves one-word last lines and splits names ("Nakata / Koheiji"). For each {page}
+    chunk that fits one page, pick the line breaks (same line count) that avoid both and even the line lengths,
+    as {nl}: every line then fits the box, so the runtime wrap keeps them."""
+    normal, last = (c * 16 - MARGIN for c in box)
+    out = []
+    for chunk in s.split("{page}"):
+        pages = layout(chunk, box)
+        words = chunk.split(" ")
+        n = len(pages[0]) if len(pages) == 1 else 0
+        if n < 2 or "{nl}" in chunk or "" in words:
+            out.append(chunk)
+            continue
+        name = [name_split(a, b) for a, b in zip(words, words[1:])]
+        lines = pages[0]
+        if " " in lines[-1] and not any(name_split(a, b) for a, b in zip(lines, lines[1:])):
+            out.append(chunk)  # greedy is fine: keep it
+            continue
+        ws = [px(re.sub(r"\{[^}]*\}", "", w)) for w in words]
+
+        def cost(cuts):
+            lines = list(zip((0,) + cuts, cuts + (len(words),)))
+            c = 0
+            for i, (a, b) in enumerate(lines):
+                w = sum(ws[a:b]) + WIDTHS[" "] * (b - a - 1)
+                if w > (last if i == 2 else normal):
+                    return None
+                c += ((last if i == 2 else normal) - w) ** 2
+            if lines[-1][1] - lines[-1][0] == 1:
+                c += 10 ** 6  # one-word last line
+            return c + 10 ** 6 * sum(name[k - 1] for k in cuts)
+
+        best = min(((c, cuts) for cuts in itertools.combinations(range(1, len(words)), n - 1)
+                    if (c := cost(cuts)) is not None), default=(0, None))[1]
+        if best is None:
+            out.append(chunk)
+            continue
+        out.append("".join(("{nl}" if k in best else " " if k else "") + w for k, w in enumerate(words)))
+    return "{page}".join(out)
+
+
 def check_words(s):
     """Raise if a word can't fit even the narrowest line (the portrait box's last line)."""
     for kind, t in tokens(s):
@@ -140,6 +188,7 @@ def encode_script(rom, marker):
         en = e["en"] or (ctrl_prefix(e["jp"]) + f"[{sid}] {MARKER}" if marker else "")
         if en:
             check_words(en)
+            en = balance(en)
         blobs[sid] = EN.encode(en + "{end}") if en else raw
     return blobs
 

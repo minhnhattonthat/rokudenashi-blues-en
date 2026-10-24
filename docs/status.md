@@ -2,8 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** release candidate; v0.9 built locally (release/, not published; predates the playtest fixes). Last
-  build: 2026-10-24, sha1 e88d54da.
+- **Phase:** v1.0 released 2026-10-24 (github.com/minhnhattonthat/rokudenashi-blues-en; patch sha1 d29c3233).
+  Last build: 2026-10-25, sha1 8ca17734. Visual QA gate passed (123 sheets): work/qa/tour + string tour
+  (tools/debug/strtour.py, every string paged in a Talk box), manifest work/qa/manifest.tsv. build.py balance()
+  re-breaks lines at build time (no one-word last lines, no split names).
 - **Done:** all script + other text translated; astra review + fixes for b1a b1b b2 b3 b4 b5 b7a b7b, b6
   self-reviewed (astra dispatch blocked by classifier outage); title menu, options, shouts checked in game.
   Graphics (docs/re/graphics.md): boot copyright, title logo + subtitle, RAGE badge, VS banners, ending mini logo,
@@ -16,7 +18,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   states (made on build 2812353d or later): work/states/title.mss, s1_hatanaka.mss (Scenario 1 ring fight),
   s1_after_hatanaka.mss. Story3 session states (work/playtest/story3, build 2812353d) reach Scenario 3 Akane scene.
 - **Next:** unseen in play: Scenario 5 Katsuji "behind the school" scene (5-154/155) and 5-172; the other 8 sound
-  effects and WAIT! / DOUBLE KO; astra review of b6; rebuild release after the fixes; user playtest.
+  effects and WAIT! / DOUBLE KO; astra review of b6; user playtest; player bug reports (GitHub issues).
 - **Known/accepted:** 2P Blues needs pad 2
   (play.py drives pad 1 only).
 - **Known Japanese left:** copier warning (string at 0x434BD, no pointer found; copier hardware only).

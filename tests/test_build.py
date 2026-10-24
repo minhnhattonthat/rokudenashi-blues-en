@@ -19,6 +19,14 @@ def test_layout_respects_box_widths():
         assert pages[-1] == ["Next page"]  # {page} finished the page before it
 
 
+def test_balance_avoids_one_word_last_line_and_split_names():
+    s = "Maeda-san, sorry about the other day.{page}I'm the boss of Teiken High, Nakata Koheiji!{page}Short."
+    pages = [build.layout(c) for c in build.balance(s).split("{page}")]
+    assert [len(p) for p in pages] == [1, 1, 1] and len(pages[0][0]) == len(pages[1][0]) == 2
+    assert " " in pages[0][0][-1] and "Nakata Koheiji!" in pages[1][0][-1]
+    assert build.balance("Short.{page}Two words") == "Short.{page}Two words"
+
+
 def test_check_words_rejects_overlong_word():
     with pytest.raises(ValueError):
         build.check_words("W" * 40)
@@ -32,4 +40,4 @@ def test_marker_build_repoints_every_string(tmp_path):
     en = {e["id"]: e["en"] for e in build.load_script()}
     for sid, _, addr in text.pointers(rom):
         s, _ = build.EN.decode(rom, text.lorom(addr))
-        assert s == en[sid] + "{end}" if en[sid] else f"[{sid}]" in s, sid
+        assert s == build.balance(en[sid]) + "{end}" if en[sid] else f"[{sid}]" in s, sid

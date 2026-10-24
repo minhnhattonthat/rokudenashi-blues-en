@@ -16,3 +16,4 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D8 | 2026-10-09 | Review agents | - | multi-openai gpt-6-astra; they can't write files, the controller saves their reports. |
 | D9 | 2026-10-24 | Title logo text | romaji (ROKUDENASHI / TAIKETSU! TOKYO SHITENNOU), English subtitle, keep Japanese | English subtitle: ROKUDENASHI / BLUES / SHOWDOWN! TOKYO'S FOUR KINGS; the ブルース reading removed. |
 | D10 | 2026-10-24 | Graphics text in scope | - | All of it: the user asked for every Japanese graphic and sprite to be translated. |
+| D11 | 2026-10-24 | Publish | - | User asked to release and upload to GitHub minhnhattonthat: public repo rokudenashi-blues-en, first public release v1.0 (v0.9 was never published). |

@@ -45,7 +45,7 @@
   "id": "2-006",
   "ptr": "8B8966",
   "jp": "前田さん、この前は{nl}悪かったな{nl}{nl}畑中さんが大学に{nl}いっちまったから{nl}{nl}今は俺が{nl}ボクシング部を{nl}まとめなきゃならねえ{nl}なんかあった時は{nl}またケツを{nl}もってくれよな",
-  "en": "Maeda-san, sorry about the other day.{page}Hatanaka-san's gone off to college,{page}so now it's on me to hold the boxing club together. If anything comes up, have our backs again, yeah?",
+  "en": "Maeda-san, sorry about the other day.{page}Hatanaka-san's gone off to college, so now it's on me to hold the boxing club together.{page}If anything comes up, have our backs again, yeah?",
   "notes": ""
  },
  {
@@ -234,7 +234,7 @@
   "id": "2-033",
   "ptr": "8B8DB2",
   "jp": "帝拳に そういう奴が{nl}いたのをコロッと{nl}わすれてたぜ{nl}俺も会ったことねーから{nl}わかんねーけどよ{nl}{nl}けっこう腕は{nl}たつらしい{nl}{nl}前田ってのは{nl}まだ学校にいんのか？",
-  "en": "Clean forgot Teiken had a guy like that. Never met him myself, so I dunno,{page}but word is he's pretty handy with his fists.{page}This Maeda, he still at school?",
+  "en": "Clean forgot Teiken had a guy like that. Never met him myself, so I dunno.{page}But word is he's pretty handy with his fists.{page}This Maeda, he still at school?",
   "notes": ""
  },
  {
@@ -311,7 +311,7 @@
   "id": "2-044",
   "ptr": "8B9068",
   "jp": "ボクは、写真部の{nl}部長として{nl}{nl}とくだねを{nl}さがしてるんだ{nl}たとえば君の{nl}ぼうりょくシーン{nl}なんかをね",
-  "en": "As president of the photography club,{page}I'm hunting for a scoop. Like, say, a shot of you being violent.",
+  "en": "I'm president of the photography club.{page}I'm hunting for a scoop. Like, say, a shot of you being violent.",
   "notes": ""
  },
  {
