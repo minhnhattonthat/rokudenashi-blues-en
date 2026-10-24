@@ -2,7 +2,9 @@
 C800-CE7F       font glyphs 0x240-0x273: pre-rendered command labels
 29D27-29D66     HUD: RAGE badge middle (tiles $1F-$22)
 29E77-2A236     HUD: fight banners FIGHT! WAIT! DOUBLE KO (tiles $34-$6F)
-420B8-420B9     typing speed (AND #$01)
+2F09C-2F3EB     story sound effects: katakana sheet tiles $10-$44 redrawn as letters (sfx.py)
+4430F-443E6     story sound effects: 9 BG3 maps (sfx.py)
+420B8-420B9    typing speed (AND #$01)
 420CE-420D1     JSL wrap_read
 421A4-421A9     JSL vwf_draw + BRA
 4201B-4209C     command label fields (4 glyph codes + FFFF each)

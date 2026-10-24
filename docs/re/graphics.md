@@ -15,6 +15,7 @@ swept, only found by VRAM dump + `vramfind.py` on screens seen.
 | Fight HUD (story + VS) | 怒 gauge badge | raw 2bpp $85:9B37 tiles $1F-$22 | `hud.py` | RAGE, verified in both |
 | VS fight | 始め / 待て / 共倒れ banners | raw 2bpp $85:9B37 tiles $34-$6F, map records $AF:F040- | `hud.py` | FIGHT! / WAIT! / DOUBLE KO, verified with `tools/lua/bannerpoke.lua` (WAIT! and DOUBLE KO not reached in play) |
 | Ending? (loader $88:FA6D) | mini ろくでなし BLUES ブルース | BG1 tiles LZ $AD:9F73, map LZ $AD:B233 | `titlelogo.py` | English, verified offline only (render of the built blocks); screen not reached |
+| Story cutscenes | sound effects ガッ ガン ゴッ ゴン ドカッ ドス バキッ バコ バシッ | BG3 raw 2bpp sheet file 0x2EF9C (VRAM $A000, tiles $200+), 6x2 maps $88:C30F | `sfx.py` | WHAP! CLANG! BONK! BONG! WHAM! THUD! CRACK! WHACK SMACK!; CRACK! verified in play (Scenario 3 corridor), the rest offline (`sfx.py preview`) |
 | Copier warning | コピーしちゃいけないんだぞぉー | string at file 0x434BD | - | left: no pointer to it anywhere in the ROM (unused or built at run time); shown only on copier hardware |
 
 Backgrounds (LZ $82:8000, $83:A1C3, $83:E69A, $84:C1A6, $84:E22F...) show no Japanese signage in the sweep sheets.

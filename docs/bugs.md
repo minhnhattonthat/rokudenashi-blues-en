@@ -33,3 +33,11 @@ Evidence: `work/playtest/opt1-bugs/NNNN.png|.sheetK.png|.<state>`, presses in `l
 Evidence: `work/playtest/vs1-bugs/NNNN.png|.sheetK.png|.<state>`, presses in `log.tsv`.
 
 - [x] (not a bug: original labels; SUPER PUNCH fills the 7-cell field, so no leader) step 0039 - wording - Options, CONTROLLER list - two identical "DODGE" rows (R and L) give the player no way to tell what each does; also "SUPER PUNCH" has no dot leader and butts against its button letter while the other rows have one - "DODGE -------R" / "DODGE -------L", "SUPER PUNCH X"
+
+## 2026-10-24 playtest - pt2.sfc sha1 2812353d (story3: Scenario 1 end to Scenario 3, fight cheat on; vs2: 1P Blues wins)
+Evidence: `work/playtest/story3/NNNN.png|.sheetK.png|.mss`. vs2: no issues.
+
+- [x] (fixed in f8dcf0cd: tools/sfx.py, all 9 story sound effects) step 0102 - text - Scenario 3, corridor, Akane slaps Koheiji - katakana sound-effect graphic left - "バキッ"
+- [x] (fixed in f8dcf0cd: "Relax, it's fine!") step 0093 - wording - Scenario 2 end, courtyard, Koheiji to his worried crony - reads as a health reply; JP だいじょーぶだよ - "I'm fine!"
+- [x] (fixed in f8dcf0cd) step 0132 - wording - Scenario 3, toilet, Taison flustered - stammer reads as gibberish - "Y-You... wh-what're you sayi-ya-da-la-pyaaa!"
+- [x] (fixed in f8dcf0cd: "Behold! The battle dance!") step 0145 - wording - Scenario 3, corridor, Akane announcing her own move - "Whoa! The battle dance!"
