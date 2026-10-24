@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 TL = ROOT / "work" / "tl"
 SCRIPT = ROOT / "script"
 CTRL = re.compile(r"\{[^}]*\}")
-LAYOUT = {"{nl}", "{page}"}
+LAYOUT = {"{nl}", "{page}", "{jsp}"}  # {jsp}: 16 px JP blank cell (credits indents)
 
 
 def groups():
@@ -96,9 +96,10 @@ def problems(e, en, gloss):
             errs.append(f"command label: {build.px(plain)}px (max {build.MENU_PX}), no control codes")
     elif e["id"][0] in "CS":  # credits (15-cell lines) / shouts (11-cell box): explicit lines
         limit = 228 if e["id"][0] == "C" else 164
-        for line in CTRL.sub("", en.replace("{nl}", "\n")).split("\n"):
-            if build.px(line) > limit:
-                errs.append(f"line {build.px(line)}px > {limit}: {line!r}")
+        for line in en.split("{nl}"):
+            w = build.px(CTRL.sub("", line)) + 16 * line.count("{jsp}")
+            if w > limit:
+                errs.append(f"line {w}px > {limit}: {line!r}")
     else:
         try:
             build.check_words(en)

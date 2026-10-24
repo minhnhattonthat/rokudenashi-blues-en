@@ -3,70 +3,70 @@
   "id": "C00",
   "ptr": "92EC3F",
   "jp": " {nl} {nl} {nl} STAFF",
-  "en": "{nl}{nl}{nl}                 STAFF",
+  "en": "{jsp}{nl}{jsp}{nl}{jsp}{nl}{jsp}{jsp}{jsp}{jsp}STAFF",
   "notes": ""
  },
  {
   "id": "C01",
   "ptr": "92EC59",
   "jp": "プロデューサー{nl}  磯貝 健夫{nl} {nl}アシスタント{nl}プロデューサー{nl}  鈴木 敏弘",
-  "en": "PRODUCER{nl}     Isogai Takeo{nl}{nl}ASSISTANT{nl}PRODUCER{nl}     Suzuki Toshihiro",
+  "en": "PRODUCER{nl}{jsp}{jsp}Isogai Takeo{nl}{jsp}{nl}ASSISTANT{nl}PRODUCER{nl}{jsp}{jsp}Suzuki Toshihiro",
   "notes": ""
  },
  {
   "id": "C02",
   "ptr": "92ECAB",
   "jp": "コーディ{nl}   ネーター{nl} {nl}DE YASU{nl} {nl}JAKE 山本",
-  "en": "COORDINATORS{nl}{nl}     DE YASU{nl}{nl}     JAKE Yamamoto",
+  "en": "COORDINATORS{nl}{jsp}{nl}{jsp}{jsp}DE YASU{nl}{jsp}{nl}{jsp}{jsp}JAKE Yamamoto",
   "notes": ""
  },
  {
   "id": "C03",
   "ptr": "92ECED",
   "jp": "バトルプログラマー{nl}    日本一の・・・・",
-  "en": "BATTLE PROGRAMMER{nl}     Japan's No. 1....",
+  "en": "BATTLE PROGRAMMER{nl}{jsp}{jsp}Japan's No. 1....",
   "notes": ""
  },
  {
   "id": "C04",
   "ptr": "92ED1B",
   "jp": "ストーリープログラマー{nl}  MOTOR―OOM{nl}タイトルプログラマー{nl}  PORCOROSSO",
-  "en": "STORY PROGRAMMER{nl}     MOTOR-OOM{nl}TITLE PROGRAMMER{nl}     PORCOROSSO",
+  "en": "STORY PROGRAMMER{nl}{jsp}{jsp}MOTOR-OOM{nl}TITLE PROGRAMMER{nl}{jsp}{jsp}PORCOROSSO",
   "notes": ""
  },
  {
   "id": "C05",
   "ptr": "92ED7B",
   "jp": "プログラムサンクス{nl}         ATS{nl}       MITSU{nl}      DONKEY",
-  "en": "PROGRAM THANKS{nl}     ATS{nl}     MITSU{nl}     DONKEY",
+  "en": "PROGRAM THANKS{nl}{jsp}{jsp}ATS{nl}{jsp}{jsp}MITSU{nl}{jsp}{jsp}DONKEY",
   "notes": ""
  },
  {
   "id": "C06",
   "ptr": "92F167",
   "jp": "テストプレイヤー{nl}         カッパ{nl}   チャッピーぬけさく",
-  "en": "TEST PLAYERS{nl}     Kappa{nl}     Chappy Nukesaku",
+  "en": "TEST PLAYERS{nl}{jsp}{jsp}Kappa{nl}{jsp}{jsp}Chappy Nukesaku",
   "notes": ""
  },
  {
   "id": "C07",
   "ptr": "92EDDD",
   "jp": "デザイナー  タコやきや{nl}        かねごん{nl}       さるじょう{nl}   ひがわりていしょく",
-  "en": "DESIGNERS     Takoyakiya{nl}     Kanegon{nl}     Sarujo{nl}     Higawari Teishoku",
+  "en": "DESIGNERS{nl}{jsp}{jsp}Takoyakiya{nl}{jsp}{jsp}Kanegon{nl}{jsp}{jsp}Sarujo{nl}{jsp}{jsp}Higawari Teishoku",
   "notes": ""
  },
  {
   "id": "C08",
   "ptr": "92EE45",
   "jp": "    MINAZUKI{nl}   アセンズのタイモン{nl}          大王{nl}        のっさん",
-  "en": "MINAZUKI{nl}     Timon of Athens{nl}     Daio{nl}     Nossan",
+  "en": "{jsp}{jsp}MINAZUKI{nl}{jsp}{jsp}Timon of Athens{nl}{jsp}{jsp}Daio{nl}{jsp}{jsp}Nossan",
   "notes": ""
  },
  {
   "id": "C09",
   "ptr": "92F125",
   "jp": "コンポーザー{nl}          M2{nl}      KYOMOE",
-  "en": "COMPOSERS{nl}     M2{nl}     KYOMOE",
+  "en": "COMPOSERS{nl}{jsp}{jsp}M2{nl}{jsp}{jsp}KYOMOE",
   "notes": ""
  },
  {
@@ -87,56 +87,56 @@
   "id": "C12",
   "ptr": "92EF0B",
   "jp": "前田・畑中・海老原{nl}       平田 広明{nl}島袋・小兵二・薬師寺{nl}       江川 史生",
-  "en": "Maeda, Hatanaka, Ebihara{nl}     Hirata Hiroaki{nl}Shimabukuro, Koheiji, Yakushiji{nl}     Egawa Hisao",
+  "en": "Maeda, Hatanaka, Ebihara{nl}{jsp}{jsp}Hirata Hiroaki{nl}Shimabukuro, Koheiji, Yakushiji{nl}{jsp}{jsp}Egawa Hisao",
   "notes": ""
  },
  {
   "id": "C13",
   "ptr": "92EF67",
   "jp": "鬼塚・葛西{nl}       幸野 善之{nl}千秋{nl}       永島 由子",
-  "en": "Onizuka, Kasai{nl}     Kono Yoshiyuki{nl}Chiaki{nl}     Nagashima Yuko",
+  "en": "Onizuka, Kasai{nl}{jsp}{jsp}Kono Yoshiyuki{nl}Chiaki{nl}{jsp}{jsp}Nagashima Yuko",
   "notes": ""
  },
  {
   "id": "C14",
   "ptr": "92EFAD",
   "jp": " {nl} {nl}スペシャル{nl}   サンクス",
-  "en": "{nl}{nl}SPECIAL{nl}     THANKS",
+  "en": "{jsp}{nl}{jsp}{nl}SPECIAL{nl}{jsp}{jsp}THANKS",
   "notes": ""
  },
  {
   "id": "C15",
   "ptr": "92EFD1",
   "jp": "週刊少年{nl}   ジャンプ{nl} {nl}  堀江 信彦{nl}  町田 宗治{nl}  増田 真晃",
-  "en": "WEEKLY SHONEN{nl}     JUMP{nl}{nl}     Horie Nobuhiko{nl}     Machida Muneharu{nl}     Masuda Masaaki",
+  "en": "WEEKLY SHONEN{nl}{jsp}{jsp}JUMP{nl}{jsp}{nl}{jsp}{jsp}Horie Nobuhiko{nl}{jsp}{jsp}Machida Muneharu{nl}{jsp}{jsp}Masuda Masaaki",
   "notes": ""
  },
  {
   "id": "C16",
   "ptr": "92F01F",
   "jp": "Vジャンプ{nl} {nl}  鳥嶋 和彦{nl}  高橋 俊昌{nl}  岡本 堅史",
-  "en": "V JUMP{nl}{nl}     Torishima Kazuhiko{nl}     Takahashi Toshimasa{nl}     Okamoto Kenji",
+  "en": "V JUMP{nl}{jsp}{nl}{jsp}{jsp}Torishima Kazuhiko{nl}{jsp}{jsp}Takahashi Toshimasa{nl}{jsp}{jsp}Okamoto Kenji",
   "notes": ""
  },
  {
   "id": "C17",
   "ptr": "92F05F",
   "jp": "  松本 常男{nl}  赤松 直人{nl}  岩原 誠{nl}  渡邊 洋三{nl} {nl}  森下 孝三{nl}  蛭田 成一",
-  "en": "Matsumoto Tsuneo{nl}     Akamatsu Naoto{nl}     Iwahara Makoto{nl}     Watanabe Yozo{nl}{nl}     Morishita Kozo{nl}     Hiruta Seiichi",
+  "en": "{jsp}{jsp}Matsumoto Tsuneo{nl}{jsp}{jsp}Akamatsu Naoto{nl}{jsp}{jsp}Iwahara Makoto{nl}{jsp}{jsp}Watanabe Yozo{nl}{jsp}{nl}{jsp}{jsp}Morishita Kozo{nl}{jsp}{jsp}Hiruta Seiichi",
   "notes": ""
  },
  {
   "id": "C18",
   "ptr": "92F0C1",
   "jp": "    青二プロ{nl}  スタジオタバック",
-  "en": "Aoni Production{nl}     Studio Tavac",
+  "en": "{jsp}{jsp}Aoni Production{nl}{jsp}{jsp}Studio Tavac",
   "notes": ""
  },
  {
   "id": "C19",
   "ptr": "92F0E9",
   "jp": "  PRESENTED{nl}     BY{nl}   BANDAI",
-  "en": "PRESENTED{nl}          BY{nl}       BANDAI",
+  "en": "PRESENTED{nl}{jsp}{jsp}{jsp}BY{nl}{jsp}{jsp}BANDAI",
   "notes": ""
  },
  {

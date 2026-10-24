@@ -41,3 +41,15 @@ Evidence: `work/playtest/story3/NNNN.png|.sheetK.png|.mss`. vs2: no issues.
 - [x] (fixed in f8dcf0cd: "Relax, it's fine!") step 0093 - wording - Scenario 2 end, courtyard, Koheiji to his worried crony - reads as a health reply; JP だいじょーぶだよ - "I'm fine!"
 - [x] (fixed in f8dcf0cd) step 0132 - wording - Scenario 3, toilet, Taison flustered - stammer reads as gibberish - "Y-You... wh-what're you sayi-ya-da-la-pyaaa!"
 - [x] (fixed in f8dcf0cd: "Behold! The battle dance!") step 0145 - wording - Scenario 3, corridor, Akane announcing her own move - "Whoa! The battle dance!"
+
+## 2026-10-24 playtest - Scenarios 3-7, ending and credits (fight cheat on)
+Evidence: `work/playtest/sc3..sc7/NNNN.png|.sheetK.png|.mss`; credits re-check `work/qa/credits/`.
+
+- [x] (fixed: credits indents/blank lines use `{jsp}` = JP 16 px blank cell 0000, not 4 px spaces) sc7 step 0114 - layout - staff roll - indented names and blank lines garbled
+- [x] (fixed: "...h-hit me alweady!!") sc6 step 0142 - wording - Azuma Bridge ending, Taison stammer - "J-Just shut up and h-hit me-ya-da-la!!"
+- [x] (fixed: "Maeda-san! We followed you all the way here!") sc6 step 0082 - wording - temple, Ebihara - "Maeda-san, we came after you, Maeda-san!"
+- [x] (fixed: "Too late for that.") sc6 step 0131 - wording - Azuma Bridge, reply to "better if you'd never been around" - "Can't help ya there."
+- [x] (fixed: "...with no interruptions.") sc6 step 0130 - wording - Azuma Bridge - "Finally we can go at it in peace."
+- [x] (fixed earlier, 1-216 "POWER") sc6 step 0019 - wording - trash can Search - "Taison's stamina went down."
+- [x] (fixed: "D-Did ya... Did ya get that?! Huh?!"; stammer is in the JP) sc6 step 0065 - wording - Hanayashiki bridge - "G-Got... You got that?! Huh?!"
+- (sc5 continuation, steps 0143-0221: Ebihara fight to Scenario 6 narration, no issues; 5-154/155, 5-172 not triggered)

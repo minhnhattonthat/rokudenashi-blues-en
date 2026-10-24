@@ -40,7 +40,7 @@ MENU_GLYPH, MENU_PX = 0x240, 64  # command labels use font glyphs 0x240-0x273 (b
 WIDTHS = font.widths()
 EN = Table([f"{i:02X}03={ch}" for ch, i in ((c, ord(c) - 0x20) for c in WIDTHS)]
            + [line for line in (ROOT / "tbl" / "jp.tbl").read_text(encoding="utf-8").splitlines() if "={" in line]
-           + ["E0FF={page}"])
+           + ["E0FF={page}", "0000={jsp}"])  # {jsp}: the JP blank cell (16 px, fixed-cell path); credits indents
 MARKER = "The quick brown fox jumps over the lazy dog while the fifth gang boss waits by the station gate."
 
 
