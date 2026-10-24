@@ -4,6 +4,7 @@
 Never publishes anything; release/ is local and gitignored.
 """
 import hashlib
+import os
 import subprocess
 import sys
 import zipfile
@@ -15,7 +16,8 @@ import build  # noqa: E402
 import text  # noqa: E402
 
 ROOT = text.ROOT
-SKILL = ROOT / ".claude" / "skills" / "translate-retro-game" / "scripts"
+# $SKILL = the directory holding the translate-retro-game SKILL.md; default: the Claude Code plugin checkout
+SKILL = Path(os.environ.get("SKILL", Path.home() / ".claude/plugins/marketplaces/retro-translation/skills/translate-retro-game")) / "scripts"
 NAME = "RokudenashiBlues_TaiketsuTokyoShitennou_EN"
 
 

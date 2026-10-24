@@ -12,6 +12,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+import check_rom  # noqa: E402
 import font  # noqa: E402
 import options  # noqa: E402
 import text  # noqa: E402
@@ -173,6 +174,7 @@ def insert_other(rom, marker, free):
 
 
 def build(out, marker=False):
+    check_rom.check()
     BUILD.mkdir(exist_ok=True)
     rom = bytearray(text.ROM.read_bytes())
     rom += b"\xFF" * (SIZE - len(rom))

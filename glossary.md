@@ -4,7 +4,7 @@ Binding for every translator and reviewer. Agents propose additions in reports; 
 `tools/batches.py check/lint` enforces it: when a row's JP appears in a line, one of the EN forms (separated by
 `/`) must appear in the English; spellings in the Avoid column (comma-separated) fail.
 
-## Rulings (user, 2026-10-09)
+## Rulings (user, 2026-10-09; options and reasons in docs/decisions.md)
 - Name order: Japanese (family name first: Maeda Taison). Honorifics kept, hyphenated (Chiaki-chan, Maeda-san, Kasai-senpai).
 - Romanization: Hepburn without macrons or doubled long vowels (Kichijoji, Kotaro, Muto); verified readings in docs/research-names.md.
 - Credits: English. Plans: pre-approved.
