@@ -21,14 +21,14 @@ WHAT'S TRANSLATED
 -----------------
 - All story dialogue and narration (variable-width font, word-wrapped by the game at runtime)
 - Title menu, options screen, command labels, intro shouts, staff credits
+- Graphics: boot copyright screen, title logo (subtitle: "Showdown! Tokyo's Four Kings"), fight banners,
+  RAGE gauge, ending logo
 
 Names follow the manga in Japanese order (Maeda Taison) with honorifics kept (Maeda-kun, Chiaki-chan).
 
 KNOWN ISSUES
 ------------
-- The boot copyright screen and the logo artwork (Taiketsu! Tokyo Shitennou, "Blues" katakana) stay in Japanese.
 - The anti-copier warning screen (only shown on copier hardware) is untranslated.
-- The anger icon on the story-mode HUD is the original kanji graphic.
 
 Tested in Mesen 2.
 

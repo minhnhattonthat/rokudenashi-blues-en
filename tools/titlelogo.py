@@ -7,6 +7,10 @@ tiles $140-$154 also draw BLUES). The subtitle and the copyright line are one me
 x 128, y 138) over OBJ tiles $100- from LZ $90:8200 (loader $88:DE0F, DMA to VRAM $5000, room for 128 tiles
 before the title menu block at $5800).
 
+Mini logo (screen at $88:FA6D, likely the ending; caller not found, verified offline only): BG1 tiles LZ $AD:9F73
+to VRAM 0 (LDA #bank $88:FA86, LDA #addr $88:FA8E), map LZ $AD:B233 to VRAM $2000 (LDA #bank $88:FAC0, LDA #addr
+$88:FAC8). ろくでなし = map rows 3-4 cols 4-11, 16 tiles drawn nowhere else; ブルース = row 9 cols 10-12.
+
     python -X utf8 tools/titlelogo.py preview OUT.png    # both new pieces in their palettes (from ROM data)
 """
 import sys
@@ -35,6 +39,29 @@ META, META_END = 0x808D2, 0x809F5  # entries size, x, y, tile, attr; $80 ends
 COPY_FIRST, COPY_COUNT, COPY_TO = 0x46, 0x19, 0x60  # copyright letters: moved to tiles $60-
 SUB_W, SUB_ROWS = 192, 2  # canvas: 12 x 2 sprites of 16x16, x -96..95, y -16..15
 OBJ_ATTR = 0x30
+
+MINI_TILES, MINI_TILES_BANK, MINI_TILES_ADDR = 0x169F73, 0x47A86, 0x47A8E  # LDA #bank ... LDA #addr
+MINI_MAP, MINI_MAP_BANK, MINI_MAP_ADDR = 0x16B233, 0x47AC0, 0x47AC8
+MINI_ROWS, MINI_COLS = range(3, 5), range(3, 13)  # old art cols 4-11; 3 and 12 are blank, new tiles go last
+MINI_READING = [(9, c) for c in range(10, 13)]
+MINI_BANDS = [2, 2, 3, 3, 3, 4, 5, 5, 5, 6, 6, 6]  # the old lettering's colour per row (palette 1)
+MINI_SHEAR = 0.3
+_C = "##..##"
+MINI_FONT = {  # bold 6x12 caps (a TrueType font at 12 px loses its counters)
+    "R": ["#####.", "######", _C, _C, _C, "#####.", "####..", "##.##.", "##.##.", _C, _C, _C],
+    "O": [".####.", "######"] + [_C] * 8 + ["######", ".####."],
+    "K": [_C, _C, "##.##.", "##.##.", "####..", "###...", "####..", "##.##.", "##.##.", _C, _C, _C],
+    "U": [_C] * 10 + ["######", ".####."],
+    "D": ["#####.", "######"] + [_C] * 8 + ["######", "#####."],
+    "E": ["######", "######", "##....", "##....", "##....", "#####.", "#####.", "##....", "##....", "##....",
+          "######", "######"],
+    "N": [_C, "###.##", "###.##", "######", "######", "##.###", "##.###", _C, _C, _C, _C, _C],
+    "A": [".####.", "######", _C, _C, _C, "######", "######", _C, _C, _C, _C, _C],
+    "S": [".####.", "######", _C, "##....", "###...", ".####.", "..###.", "....##", "....##", _C, "######",
+          ".####."],
+    "H": [_C] * 5 + ["######", "######"] + [_C] * 5,
+    "I": ["##"] * 12,
+}
 
 
 def mask(s, cap, shear=0.0, track=1, xscale=1.0):
@@ -189,10 +216,62 @@ def patch_obj(rom, place):
     operand(rom, OBJ_OPERAND, OBJ_OPERAND + 3, text.cpu(off))
 
 
+def mini_canvas():
+    h = len(MINI_BANDS)
+    lean = round((h - 1) * MINI_SHEAR)
+    plain = [""] * h
+    for ch in TITLE:
+        plain = [row + g + "." for row, g in zip(plain, MINI_FONT[ch])]
+    m = [[0] * (round((h - 1 - y) * MINI_SHEAR)) + [int(p == "#") for p in row.rstrip(".")]
+         + [0] * (lean - round((h - 1 - y) * MINI_SHEAR)) for y, row in enumerate(plain)]
+    m = [row + [0] * (max(map(len, m)) - len(row)) for row in m]
+    w = 8 * len(MINI_COLS)
+    assert len(m[0]) <= w, f"mini ROKUDENASHI is {len(m[0])} px, band is {w}"
+    x0 = (w - len(m[0])) // 2
+    out = [[0] * w for _ in range(16)]
+    for y, row in enumerate(m):
+        for x, p in enumerate(row):
+            if p:
+                out[3 + y][x0 + x] = MINI_BANDS[y]
+    return out
+
+
+def lda_operand(rom, bank_at, addr_at, addr):
+    """Point an `LDA #bank` (8-bit, at bank_at) ... `LDA #addr` (at addr_at) pair at CPU address addr."""
+    assert rom[bank_at] == 0xA9 and rom[addr_at] == 0xA9
+    rom[bank_at + 1] = addr >> 16
+    put(rom, addr_at + 1, (addr & 0xFFFF).to_bytes(2, "little"))
+
+
+def patch_mini(rom, place):
+    tiles = bytearray(lz.decompress(rom, MINI_TILES)[0])
+    tmap = bytearray(lz.decompress(rom, MINI_MAP)[0])
+    word = lambda r, c: tmap[2 * (r * 32 + c)] | tmap[2 * (r * 32 + c) + 1] << 8  # noqa: E731
+    attr = word(MINI_ROWS[0], 5) & 0xFC00
+    blank = word(*MINI_READING[-1]) & 0xFC00 | word(0, 0) & 0x3FF  # an empty cell with the screen's attributes
+    slots = [word(r, c) & 0x3FF for r in MINI_ROWS for c in MINI_COLS if word(r, c) & 0x3FF]
+    every = [tmap[i] | (tmap[i + 1] & 3) << 8 for i in range(0, len(tmap), 2)]
+    assert all(every.count(t) == 1 for t in slots), "a ろくでなし tile is drawn elsewhere too"
+    canvas = mini_canvas()
+    for r in MINI_ROWS:
+        for i, c in enumerate(MINI_COLS):
+            if not slots:  # VRAM after the block is unused on this screen (loader $88:FA6D loads nothing else)
+                slots.append(len(tiles) // 32)
+                tiles += bytes(32)
+            n = slots.pop(0)
+            put(tiles, 32 * n, encode_tile(cells(canvas, i, r - MINI_ROWS[0])))
+            put(tmap, 2 * (r * 32 + c), (attr | n).to_bytes(2, "little"))
+    for r, c in MINI_READING:
+        put(tmap, 2 * (r * 32 + c), blank.to_bytes(2, "little"))
+    lda_operand(rom, MINI_TILES_BANK, MINI_TILES_ADDR, text.cpu(place(lz.compress(bytes(tiles)))))
+    lda_operand(rom, MINI_MAP_BANK, MINI_MAP_ADDR, text.cpu(place(lz.compress(bytes(tmap)))))
+
+
 def patch(rom, place):
     """place(data) -> file offset of a free spot for data (must not cross a bank)."""
     patch_bg(rom, place)
     patch_obj(rom, place)
+    patch_mini(rom, place)
 
 
 def preview(out):

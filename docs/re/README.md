@@ -12,4 +12,5 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
+| `graphics.md` | graphics-text survey: every Japanese graphic, its source and the tool that redraws it | verified per row (see its State column) |
 | `text.md` | font, string encoding, control codes, pointer tables, dialogue boxes | verified (tests/test_text.py roundtrip of every string + identity repack) |

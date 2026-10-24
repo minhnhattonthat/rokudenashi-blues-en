@@ -12,6 +12,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+import bootscreen  # noqa: E402
 import check_rom  # noqa: E402
 import font  # noqa: E402
 import hud  # noqa: E402
@@ -199,6 +200,7 @@ def build(out, marker=False):
     place = lambda data: text.pack(rom, {"gfx": data}, gfx_free)["gfx"]  # noqa: E731
     options.patch(rom, place)
     titlelogo.patch(rom, place)
+    bootscreen.patch(rom, lambda data: text.pack(rom, {"boot": data}, free)["boot"], place, EN.encode)
     out.write_bytes(rom)
     return rom
 

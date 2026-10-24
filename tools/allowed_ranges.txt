@@ -16,10 +16,14 @@ C800-CE7F       font glyphs 0x240-0x273: pre-rendered command labels
 7AD73-7AD77     options: BG3 font block address operands
 7ADA8-7ADAC     options: BG3 tilemap block address operands
 7D7D2-7D830     credits pointer list
-45E10-45E14     title subtitle sprite block address operands
+45984-45988     boot copyright tilemap address operands
+459BF-459C5     boot copyright string address operands
+45E10-45E14    title subtitle sprite block address operands
 45EFE-45F02     title ROKUDENASHI tile block address operands
 45F8C-45F92     title logo tilemap address operands
-808D2-809F4     title subtitle + copyright metasprite
+47A87-47A90     mini logo tile block address operands
+47AC1-47ACA     mini logo tilemap address operands
+808D2-809F4    title subtitle + copyright metasprite
 809F5-80F3B     title menu glyph block (LZ)
 80F3C-80FFF     title menu metasprite
 180000-1FFFFF   expansion: asm, English font, relocated graphics, text
