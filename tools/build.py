@@ -14,8 +14,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import check_rom  # noqa: E402
 import font  # noqa: E402
+import hud  # noqa: E402
 import options  # noqa: E402
 import text  # noqa: E402
+import titlelogo  # noqa: E402
 import titlemenu  # noqa: E402
 from tbl import Table  # noqa: E402
 
@@ -191,9 +193,12 @@ def build(out, marker=False):
     text.write_script(rom, encode_script(rom, marker), free)
     insert_other(rom, marker, free)
     titlemenu.patch(rom)
+    hud.patch(rom)
     assert set(rom[GFX_REGION[0]:GFX_REGION[1]]) == {0xFF}, "asm code grew into the graphics region"
     gfx_free = [list(GFX_REGION)]
-    options.patch(rom, lambda data: text.pack(rom, {"gfx": data}, gfx_free)["gfx"])
+    place = lambda data: text.pack(rom, {"gfx": data}, gfx_free)["gfx"]  # noqa: E731
+    options.patch(rom, place)
+    titlelogo.patch(rom, place)
     out.write_bytes(rom)
     return rom
 
