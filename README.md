@@ -9,6 +9,18 @@ no game data you can play; you need your own dump of the Japanese game.
 **Found a bug?** [Report it](../../issues/new/choose): untranslated text, typos, overflow, crashes. Attaching a savestate
 helps most.
 
+## Translation status
+
+| Part | Status |
+|---|---|
+| Dialogue / story (all scenarios, narration) | Translated |
+| Title menu, options, command labels, intro shouts | Translated |
+| Graphics (boot copyright, title logo, fight banners, RAGE gauge, ending logo, sound effects) | Translated (a few sound effects and WAIT! / DOUBLE KO not yet seen in play) |
+| Staff credits | Translated |
+| Anti-copier warning | Left in Japanese (shown only on copier hardware) |
+
+Known issues: none known; [report one](../../issues/new/choose).
+
 ## What's here
 
 | Path | What it is |
